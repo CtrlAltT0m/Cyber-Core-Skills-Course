@@ -1,0 +1,522 @@
+Configuring IP Addresses and other commands:
+
+Linux:
+ip a
+ip route
+
+
+sudo ip a add 192.168.1.1/24 dev ens33
+sudo route add default gw 192.168.0.253 ens33
+
+sudo ip link set dev ens33 up
+sudo ip link set dev ens33 down
+
+ip a
+w
+ss
+ps
+ps -aux
+df
+
+
+
+
+
+Windows: 
+ipconfig
+ipconfig /all
+route print
+arp -a
+netstat
+netstat -noab
+
+
+
+
+_______________________________________
+
+Overview:
+
+MODES:
+en - privlage user mode - show
+conf t - global config mode - confgures all device
+int fa 0/1 - sub interface mode - config local intergace
+
+ESCAPING:
+exit - to go back modes
+
+ctrl + c - emergancy escape
+
+
+SAVING:
+copy run start
+
+ASSITANCE:
+?
+tab
+do command i.e do show ip int br (in different mode)
+
+_________________________________________
+
+Switch Config:
+
+BASE:
+en
+conf t
+no ip domain-lookup
+hostname Sw1
+service password-encryption
+enable secret password
+ip default-gateway 192.168.1.254
+
+line con 0
+login local
+exec-timeout 4 0
+logging sync
+
+line vty 0 4
+transport input telnet
+login local
+exec-timeout 4 0
+logging sync
+
+int vlan 1
+ip address 192.168.1.100 255.255.255.0
+no shut
+
+
+sh run
+show ip int br
+
+
+
+
+VLANS:
+
+vlan 10
+name LAN
+
+vlan 20
+name OTHERLAN
+
+int fa 0/1
+switchport access vlan 10
+switchport mode access
+
+int fa 0/2
+switchport access vlan 20
+switchport mode access
+
+show vlan
+show vlan br
+
+
+TRUNK PORTS:
+
+
+int range fa 0/24, gig 0/1-2
+switchport mode trunk
+
+show interface trunk
+
+
+SSH:
+en
+conf t
+username user password password
+ip domain-name lan.local
+
+crypto key generate rsa
+1024
+ip ssh version 2
+
+line vty 0 4
+transport input ssh
+
+show run
+
+
+BANNERS:
+
+en
+conf t
+banner motd $ You are entering a resticted device no unauthiried users $
+sh run
+
+
+
+
+ADVANCED FEATURES:
+
+SPANNING TREE PROTOCOL:
+show spanning-tree
+
+spanning-tree vlan 10 priority 4096
+
+spanning-tree mode rapid-pvst
+show run
+
+
+
+PORTFAST:
+int fa 0/1
+switchport mode access
+spanning-tree portfast
+spanning-tree bpduguard enable
+
+show run
+show spanning-tree
+
+ETHERCHANNEL (PAGP):
+int range fa 0/1-4
+switchport mode trunk
+channel-group 1 mode desirable
+
+show run
+show ip int br
+show port-channel 1
+show etherchannel summary 
+
+PAgP: A Cisco proprietary protocol.
+LACP: An IEEE standard.
+
+
+
+
+
+
+
+
+SECURITY:
+
+PORT SECURITY:
+int range fa 0/1 - 20
+switchport mode access
+switchport port-security max 2
+switchport port-security mac-address sticky
+switchport port-security
+
+show port-security
+clear port-security all
+show run
+
+
+PORT SET UP:
+
+OPEN:
+
+int fa 0/10
+switchport mode access
+switchport access vlan 10
+switchport port-security max 2
+switchport port-security mac-address sticky
+switchport port-security
+spanning-tree portfast
+spanning-tree bpduguard enable
+
+
+CLOSED:
+int fa 0/16
+shut
+switchport mode access
+switchport access vlan 666
+switchport port-security max 2
+switchport port-security mac-address sticky
+switchport port-security
+spanning-tree portfast
+spanning-tree bpduguard enable
+
+SPAN PORT CONFIG:
+int fa 0/19
+monitor session 1 source vlan 1
+
+show span
+
+
+
+DHCP SNOOPING:
+interface Fastethernet0/1
+ip dhcp snooping trust
+ip dhcp snooping limit rate 100
+exit
+ip dhcp snooping vlan 5
+ip dhcp snooping
+ip dhcp snooping information option
+
+show ip dhcp snooping
+
+
+
+DISABLE CDP NEIBOURS:
+show cdp neibours detail (good for troubleshooting but bad for security)
+no cdp run
+cdp disable or no cdp enable
+
+OPEN SOURCE VERSION LLDP
+lldp run
+no lldp run
+
+
+
+ADVANCED SPANNING TREE FEATURES SEC FEATURES:
+ROOT GUARD
+BPDUGUARD
+LOOP GUARD
+
+OTHER SECURITY TECHNOLOGIES:
+PVLAN (PRIVATE VLANS)
+IP SOURCE GUARD
+DYNAMIC ARP ANALYSIS (DAI)
+CONTROL PLANE POLICING - QOS/SAVE FROM DOS
+
+VTP - NOT ADVISED!
+
+
+
+
+
+
+
+
+
+__________________________
+
+Router Config:
+
+BASE:
+en
+conf t
+no ip domain-lookup
+hostname RTR1
+service password-encryption
+enable secret password
+username user password password
+
+******no defualt gateway*******
+
+line con 0
+login local
+exec-timeout 4 0
+logging sync
+
+line vty 0 4
+transport input ssh
+transport output none
+login local
+exec-timeout 4 0
+logging sync
+
+
+line aux 0
+no login
+
+
+
+show run
+
+int gig 0/0
+ip address 192.168.1.254 255.255.255.0
+no shut
+
+sh ip int br
+
+SERIAL PORTS:
+int ser 0/0/0
+ip address 22.22.22.1 255.255.255.252
+clock rate 128000
+no shut
+encapsulation ppp
+ppp authentication chap (alternate pap)
+
+username RTR2 password password (other router hostname)
+
+
+en
+debug ppp authentication (req shut no shut)
+show run
+show controllers ser 0/0/0
+
+
+SSH:
+en
+conf t
+username user password password
+ip domain-name lan.local
+
+crypto key generate rsa
+1024
+ip ssh version 2
+
+line vty 0 4
+transport input ssh
+
+show run
+
+
+INTER VLAN ROUTING - ROAS:
+int gig 0/1
+no shut
+int gig 0/1.10
+encapsulaton dot1q 10
+ip address 192.168.10.254 255.255.255.0
+int gig 0/1.50
+encapsulaton dot1q 50
+ip address 192.168.50.254 255.255.255.0
+show ip int br
+
+
+
+
+STATIC ROUTING (AD=1):
+ip route 192.168.20.0 255.255.255.0 ser 0/0/0 (exit interface)
+ip route 192.168.20.0 255.255.255.0 22.22.22.2 (next hop IP)
+addtional option - floating static route:
+ip route 192.168.20.0 255.255.255.0 ser 0/0/0 2 (changes AD to 2 not 1)
+
+sh ip route
+
+DEFAULT ROUTE:
+ip route 0.0.0.0 0.0.0.0 ser 0/0/0
+
+show ip route
+
+INTERNAL DYNAMIC ROUTING PROTOCOL - RIP
+router rip
+version 2
+network 192.168.1.0
+show ip rip
+
+INTERNAL DYNAMIC ROUTING PROTOCOL - OSPFv2
+router ospf 1
+network 192.168.1.0 0.0.0.255 area 0
+passive-interface gig 0/0	
+NOTE: 0.0.0.255 is wildcard
+area 0 is backbone
+
+show ip ospf
+show ip ospf neib
+
+
+INTERNAL DYNAMIC ROUTING PROTOCOL - EIGRP
+router eigrp 1
+network 192.168.1.0 0.0.0.255
+
+show ip eirgp
+show ip eirgp topoligy
+
+
+show ip route
+
+
+
+FHRP (FIRST HOP REDUNDACY PROTOCOL)
+
+HSRP (CISCO PROP):
+int gig 0/1
+ip address 192.168.1.253 255.255.255.0
+standby 1 ip address 192.168.1.254 (virtual ip address)
+show standby
+
+VRRP (MULTI VENDOR):
+int gig 0/1
+ip address 192.168.1.253 255.255.255.0
+vrrp 1 ip 192.168.1.254 (virtual ip address)
+show vrrp
+
+GLBP (CISCO PROP - auto loads ballences):
+int gig 0/1
+ip address 192.168.1.253 255.255.255.0
+glbp 1 ip address 192.168.1.254 (virtual ip address)
+glbp 1 prioirty 120 (lowest wins)
+show glbp
+
+NOTE: THIS CAN BE USED WITH INTER VLAN ROUTING (ROAS) ASWELL.
+LOAD BALLENCE BY USING PRIORITY
+
+
+
+
+NAT/PAT - OVERLOAD:
+int gig 0/1
+ip nat inside
+int ser 0/0/0
+ip nat outside
+
+accesslist 100
+access-list 100 permit 192.168.1.0 0.0.0.255 any
+ip nat inside source list 100 interface serial 0/0/0 overload
+
+DEFAULT ROUTE????????
+
+
+show ip nat translations
+clear ip nat translation * 
+show ip nat statistics
+
+
+
+
+SECURITY:
+
+DISABLE CDP NEIBOURS:
+show cdp neibours detail (good for troubleshooting but bad for security)
+cdp neighbor disable
+
+
+
+
+
+ACL - STANDARD - CLOSEST TO DESTINATION NUMBERED/NAMES
+ACL - EXTENDED - CLOSEST TO SOURCE:
+ip access-list extended branchoffices
+permit 172.16.7.0 0.0.0.3 any 
+permit 172.16.2.0 0.0.0.255 host 172.31.5.4
+permit tcp any any
+
+interface fastethernet 0/1/0
+ip access-group branchoffices in (1 access list per port per direction)
+
+show ip access-lists
+
+
+
+OTHER SECURITY TECHNOLOGIES:
+GRE TUNNELING AND IPSEC
+
+
+
+
+
+
+ROUTERS AND IPv6
+en
+config
+ipv6 unicast-routing
+
+int gig 0/1
+ipv6 address 2001::1/64
+no shut
+
+
+sh ipv6 int br
+
+
+______________________________________
+
+CISCO ASA Commands:
+
+SSH:
+ASA
+
+username ssh user password ssh
+crypto key generate rsa modulus 2048
+ssh 10.1.1.1 255.255.255.255 inside
+ssh timeout 5
+ssh version 2
+aaa authentication ssh console LOCAL
+
+_____________________________________
+
+Links:
+packetlife.net
+
