@@ -24,26 +24,28 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
+- Part 2 - Comming Next :)
 
 
 ### Lesson 4 Linux 🐧
+- Comming Soon
 
 
 ### Lesson 5 Blue Teaming and SIEM Building 📘
-
+- Comming Soon
 
 ### Lesson 6 Scripting (Python and BASH) 🐍
-
+- Comming Soon
 
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 
 
 ### Lesson 8 Cloud Overview ☁️
-
+- Comming Soon
 
 ### Lesson 9 Building out using AUTOMATION 🧱
-
+- Comming Soon
 
 
 
