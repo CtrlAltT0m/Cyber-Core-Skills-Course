@@ -55,5 +55,5 @@ https://tinyurl.com/corecyberskillscoursefeedback
 
 😃 To get the latest info and course support, join us on our DISCORD server: 
 https://tinyurl.com/corecyberskillscoursediscord
-Note: Where each lesson is broken down into channels with pinned resources from the lessons
+- Where each lesson is broken down into channels with pinned resources from the lessons
 
