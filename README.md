@@ -10,10 +10,10 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 1 Networking 🔀
-Part 1 - Networking Theory: https://youtu.be/os892fRhDsU 
-Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
-Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
-Top Up - Subnetting: https://youtu.be/-1IRVt5mke0 
+- Part 1 - Networking Theory: https://youtu.be/os892fRhDsU 
+- Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
+- Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
+- Top Up - Subnetting: https://youtu.be/-1IRVt5mke0 
 
 
 ### Lesson 2 Virtualisation 🌐
