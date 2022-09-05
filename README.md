@@ -25,23 +25,23 @@ Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https:/
 Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 
 
-Lesson 4:
+### Lesson 4:
 
 
-Lesson 5:
+### Lesson 5:
 
 
-Lesson 6:
+### Lesson 6:
 
 
-Lesson 7 Building Red Cyber Skills 📕
+### Lesson 7 Building Red Cyber Skills 📕
 Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 
 
-Lesson 8:
+### Lesson 8:
 
 
-Lesson 9:
+### Lesson 9:
 
 
 
@@ -51,9 +51,9 @@ Lesson 9:
 📚 Course Resources - Check out the course Git hub repo: https://github.com/CtrlAltT0m/Cyber-C...
 
 🗣️Please provide some feedback: 
-tinyurl.com/corecyberskillscoursefeedback
+https://tinyurl.com/corecyberskillscoursefeedback
 
 😃To get the latest info and course support, join us on our DISCORD server: 
-tinyurl.com/corecyberskillscoursediscord
+https://tinyurl.com/corecyberskillscoursediscord
 Where each lesson is broken down into channels with pinned resources from the lessons
 
