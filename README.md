@@ -1,6 +1,5 @@
 # Cyber-Core-Skills-Course
-![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
-
+![BANNER](https://i.ibb.co/P95vw4X/Simple-Technology-Linked-In-Banner-1.png)
 Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
 This is a course that is ever growing so please check back for more content!
 
