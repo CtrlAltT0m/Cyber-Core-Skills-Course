@@ -1,5 +1,7 @@
 # Cyber-Core-Skills-Course
 
+Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
+This is a course that is ever growing so please check back for more content!
 
 # Course Contents:
 
@@ -12,12 +14,12 @@ Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI
 Top Up - Subnetting: https://youtu.be/-1IRVt5mke0
 
 Lesson 2 Virtualisation
-Part 1 - Virtuilasation Theory adn vSphere Walkthrough: https://youtu.be/1kj88i68_70
-Part 2 - Virtualisation Lets get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
+Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
+Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
 
 
 
-Lesson 3 Windows, Windows Domains and Microsooft Active Directories
+Lesson 3 Windows, Windows Domains and Microsoft Active Directories
 Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 
 Lesson 4:
@@ -27,8 +29,23 @@ Lesson 5:
 Lesson 6:
 
 Lesson 7 Building Red Cyber Skills
-Top Up - Hack the Box (Blue - Fly throught): https://youtu.be/ofc4Muwinwk
+Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 
 Lesson 8:
 
 Lesson 9:
+
+
+
+
+# Additional Information:
+
+📚 Course Resources - Check out the course Git hub repo: https://github.com/CtrlAltT0m/Cyber-C...
+
+🗣️Please provide some feedback: 
+tinyurl.com/corecyberskillscoursefeedback
+
+😃To get the latest info and course support, join us on our DISCORD server: 
+tinyurl.com/corecyberskillscoursediscord
+Where each lesson is broken down into channels with pinned resources from the lessons
+
