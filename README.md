@@ -1,7 +1,7 @@
 # Cyber-Core-Skills-Course
-Supporting material for course
 
-Course Contents:
+
+# Course Contents:
 
 Lesson 0: Course Introduction: https://youtu.be/gRNQ7VI57fg
 
