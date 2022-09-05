@@ -50,11 +50,10 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 📚 Course Resources - Check out the course Git hub repo: https://github.com/CtrlAltT0m/Cyber-C...
 
-🗣️Please provide some feedback: 
+🗣️ Please provide some feedback: 
 https://tinyurl.com/corecyberskillscoursefeedback
 
-😃To get the latest info and course support, join us on our DISCORD server: 
+😃 To get the latest info and course support, join us on our DISCORD server: 
 https://tinyurl.com/corecyberskillscoursediscord
-
-Where each lesson is broken down into channels with pinned resources from the lessons
+Note: Where each lesson is broken down into channels with pinned resources from the lessons
 
