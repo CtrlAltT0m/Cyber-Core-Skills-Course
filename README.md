@@ -17,12 +17,12 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 2 Virtualisation 🌐
-Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
-Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
+- Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
+- Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
 
 
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
-Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
+- Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 
 
 ### Lesson 4:
@@ -35,7 +35,7 @@ Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURj
 
 
 ### Lesson 7 Building Red Cyber Skills 📕
-Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
+- Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 
 
 ### Lesson 8:
