@@ -1,5 +1,5 @@
 # Cyber-Core-Skills-Course
-![TEST](https://www.canva.com/design/DAE6bh-eHZM/IhD1j0uU79VM3sdj7hJ0lg/view?utm_content=DAE6bh-eHZM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+![TEST](https://www.canva.com/design/DAE6bh-eHZM/IhD1j0uU79VM3sdj7hJ0lg/view?utm_content=DAE6bh-eHZM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAE6bh-eHZM/IhD1j0uU79VM3sdj7hJ0lg/view?utm_content=DAE6bh-eHZM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
 This is a course that is ever growing so please check back for more content!
