@@ -1,5 +1,6 @@
 # Cyber-Core-Skills-Course
-![BANNER](https://i.ibb.co/P95vw4X/Simple-Technology-Linked-In-Banner-1.png)
+![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
+
 Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
 This is a course that is ever growing so please check back for more content!
 
@@ -48,11 +49,19 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 # Additional Information:
 
-🗣️ Please provide some feedback: 
-https://tinyurl.com/corecyberskillscoursefeedback
+📚 Course Resources - Check out the course Git hub repo: https://github.com/CtrlAltT0m/Cyber-C...
+
+
 
 😃 To get the latest info and course support, join us on our DISCORD server: 
 https://tinyurl.com/corecyberskillscoursediscord
 - Where each lesson is broken down into channels with pinned resources from the lessons
 
+
+
+
+
+🗣️ Please provide some feedback: 
+![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
+https://tinyurl.com/corecyberskillscoursefeedback
 
