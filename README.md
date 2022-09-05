@@ -48,8 +48,6 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 # Additional Information:
 
-📚 Course Resources - Check out the course Git hub repo: https://github.com/CtrlAltT0m/Cyber-C...
-
 🗣️ Please provide some feedback: 
 https://tinyurl.com/corecyberskillscoursefeedback
 
