@@ -26,23 +26,23 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 
 
-### Lesson 4:
+### Lesson 4 Linux 🐧
 
 
-### Lesson 5:
+### Lesson 5 Blue Teaming and SIEM Building 📘
 
 
-### Lesson 6:
+### Lesson 6 Scripting (Python and BASH) 🐍
 
 
-### Lesson 7 Building Red Cyber Skills 📕
+### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 
 
-### Lesson 8:
+### Lesson 8 Cloud Overview ☁️
 
 
-### Lesson 9:
+### Lesson 9 Building out using AUTOMATION 🧱
 
 
 
@@ -59,9 +59,6 @@ https://tinyurl.com/corecyberskillscoursediscord
 
 
 
-
-
 🗣️ Please provide some feedback: 
-![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
 https://tinyurl.com/corecyberskillscoursefeedback
 
