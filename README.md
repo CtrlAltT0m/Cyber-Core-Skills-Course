@@ -20,15 +20,15 @@ Videos:
 - Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
 - Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
 - Top Up - Subnetting: https://youtu.be/-1IRVt5mke0 
-Quiz: Comming Soon
-Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%201%20-%20Networking%20Resources
+- Quiz: Comming Soon
+- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%201%20-%20Networking%20Resources
 
 
 ### Lesson 2 Virtualisation 🌐
 - Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
 - Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
 - Quiz: Comming Soon
-Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%202%20-%20Virtualisation%20Resources
+- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%202%20-%20Virtualisation%20Resources
 
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
@@ -38,6 +38,7 @@ Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Less
 ### Lesson 4 Linux 🐧
 - Comming Soon
 - Quiz: Comming Soon
+- - Resourses: Comming Soon
 
 ### Lesson 5 Blue Teaming and SIEM Building 📘
 - Comming Soon
