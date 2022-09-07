@@ -15,7 +15,6 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 1 Networking 🔀
-Videos:
 - Part 1 - Networking Theory: https://youtu.be/os892fRhDsU 
 - Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
 - Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
