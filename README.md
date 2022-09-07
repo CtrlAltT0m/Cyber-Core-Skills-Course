@@ -19,37 +19,43 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
 - Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
 - Top Up - Subnetting: https://youtu.be/-1IRVt5mke0 
+- Quiz: Comming Soon
 
 
 ### Lesson 2 Virtualisation 🌐
 - Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
 - Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
-
+- Quiz: Comming Soon
 
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 - Part 2 - Comming Next :)
-
+- Quiz: Comming Soon
 
 ### Lesson 4 Linux 🐧
 - Comming Soon
-
+- Quiz: Comming Soon
 
 ### Lesson 5 Blue Teaming and SIEM Building 📘
 - Comming Soon
+- Quiz: Comming Soon
 
 ### Lesson 6 Scripting (Python and BASH) 🐍
 - Comming Soon
+- Quiz: Comming Soon
 
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
+- Quiz: Comming Soon
 
 
 ### Lesson 8 Cloud Overview ☁️
 - Comming Soon
+- Quiz: Comming Soon
 
 ### Lesson 9 Building out using AUTOMATION 🧱
 - Comming Soon
+- Quiz: Comming Soon
 
 
 
