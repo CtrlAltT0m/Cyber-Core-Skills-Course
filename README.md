@@ -56,9 +56,15 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Comming Soon
 - Quiz: Comming Soon
 
+
 ### Lesson 9 Building out using AUTOMATION 🧱
 - Comming Soon
 - Quiz: Comming Soon
+
+
+### Lesson 10 soft skills and emotional intelligence 🛗
+- Comming Soon
+
 
 
 
@@ -74,7 +80,7 @@ https://tinyurl.com/corecyberskillscoursefeedback
 
 
 
-The Story:
+🪣 The Story:
 https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 
 
