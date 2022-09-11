@@ -72,3 +72,9 @@ https://tinyurl.com/corecyberskillscoursediscord
 🗣️ Please provide some feedback: 
 https://tinyurl.com/corecyberskillscoursefeedback
 
+
+
+The Story:
+https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
+
+
