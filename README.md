@@ -62,7 +62,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Quiz: Comming Soon
 
 
-### Lesson 10 soft skills and emotional intelligence 🛗
+### Lesson 10 Soft Skills in Cyber 🛗
 - Comming Soon
 
 
