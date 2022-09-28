@@ -62,7 +62,12 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Quiz: Comming Soon
 
 
-### Lesson 10 Soft Skills in Cyber 🛗
+### Lesson 10 Governance, Risk and Compliance (GRC)
+- Comming Soon
+- Quiz: Comming Soon
+
+
+### Lesson 11 Soft Skills in Cyber 🛗
 - Comming Soon
 
 
