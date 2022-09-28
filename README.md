@@ -62,7 +62,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Quiz: Comming Soon
 
 
-### Lesson 10 Governance, Risk and Compliance (GRC)
+### Lesson 10 Governance, Risk and Compliance (GRC)  📚
 - Comming Soon
 - Quiz: Comming Soon
 
