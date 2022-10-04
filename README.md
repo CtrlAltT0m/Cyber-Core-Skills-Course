@@ -24,7 +24,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 2 Virtualisation 🌐
-- Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/1kj88i68_70
+- Part 1 - Virtualisation Theory and vSphere Walkthrough: https://youtu.be/at7nPdJ9HIk
 - Part 2 - Virtualisation Let’s get practical (ESXI Server and vSphere): https://youtu.be/Gjt-PDhIkog
 - Quiz: Comming Soon
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%202%20-%20Virtualisation%20Resources
@@ -68,7 +68,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 11 Soft Skills in Cyber 🛗
-- Comming Soon
+- Top Up - Top UK Cyber Qualifications and Certifications to have in 2022 - https://youtu.be/HNs2afu4mdY
 
 
 
