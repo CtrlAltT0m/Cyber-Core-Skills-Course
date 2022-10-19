@@ -1,4 +1,6 @@
-# CISCO COMMANDS
+##CISCO COMMANDS
+Links:
+packetlife.net
 
 
 Configuring IP Addresses and other commands:
@@ -520,6 +522,7 @@ aaa authentication ssh console LOCAL
 
 _____________________________________
 
-Links:
-packetlife.net
+
+
+##VyOS Commands
 
