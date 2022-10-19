@@ -1,4 +1,4 @@
-##CISCO COMMANDS
+## CISCO COMMANDS
 Links:
 packetlife.net
 
@@ -522,7 +522,7 @@ aaa authentication ssh console LOCAL
 
 _____________________________________
 
+## VyOS Router Config
+Link: https://github.com/bertvv/cheat-sheets/blob/master/docs/VyOS.md
 
-
-##VyOS Commands
 
