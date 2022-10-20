@@ -541,26 +541,34 @@ set system host-name
 #interface config
 show interfaces
 
-set interfaces ethernet eth2 address 192.168.200.254/24
-set interfaces ethernet eth2 descripition Connection to LAN B
-set interfaces ethernet eth3 address 25.25.25.2/30
-set interfaces ethernet eth3 descripition Connection to WAN
+
+set interfaces ethernet eth2 address 25.25.25.2/30
+set interfaces ethernet eth2 descripition 'Connection to WAN'
+
+set interfaces ethernet eth3 address 192.168.200.254/24
+set interfaces ethernet eth3 descripition 'Connection to LAN B'
+
+show interfaces
 
 #routing config
-set protocol ospf area 0 network 192.168.200.0/24
-set protocol ospf area 0 network 25.25.25.0/30
+set protocols ospf area 0 network 192.168.200.0/24
+set protocols ospf area 0 network 25.25.25.0/30
 
 show protocol
 
 #dhcp set up
 set service dhcp-server shared-network-name LANB
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 default-router 192.168.200.254
-set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 name-server 192.168.200.100
+set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 name-server 192.168.100.1
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 domain-name 'LANB.lan'
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 lease 86400 #seconds in 1 day
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 range firstblock start 192.168.200.10 stop 192.168.200.200
 
 show service dhcp-server
+
+#adding ADMIN user
+set system login user <username> authentication encrypt <password>
+show system login
 
 #save config
 commit
