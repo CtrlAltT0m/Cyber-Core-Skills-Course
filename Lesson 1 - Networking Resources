@@ -560,6 +560,7 @@ set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 domain-
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 lease 86400 #seconds in 1 day
 set service dhcp-server shared-network-name LANB subnet 192.168.200.0/24 range firstblock start 192.168.200.10 stop 192.168.200.200
 
+show service dhcp-server
 
 #save config
 commit
