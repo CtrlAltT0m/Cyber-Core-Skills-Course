@@ -19,6 +19,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Part 2 - Networking Layer 2 Switching: https://youtu.be/EjVO5kkBKJk 
 - Part 3 - Networking Layer 3 Routing: https://youtu.be/_f18YJp_WAI 
 - Top Up - Subnetting: https://youtu.be/-1IRVt5mke0 
+- Top Up - VyOS Router Config: https://youtu.be/JJzr4sNyo7E
 - Quiz: Comming Soon
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%201%20-%20Networking%20Resources
 
