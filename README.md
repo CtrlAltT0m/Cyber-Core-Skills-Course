@@ -1,6 +1,6 @@
 # Cyber-Core-Skills-Course
 
-![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
+![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)  =250x250
 
 
 
