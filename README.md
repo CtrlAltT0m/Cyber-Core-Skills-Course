@@ -1,6 +1,6 @@
 # Cyber-Core-Skills-Course
 
-![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
+![BANNER]([https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/BANNER.png))
 
 <a href="url"><img src="https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/BANNER.png" align="center" width=50% height=50% ></a>
 
