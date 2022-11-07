@@ -52,33 +52,34 @@ Win10/11 Client
 
 
 ______________________________
-Win11 Build Check ByPass:
+Top Up Lesson: Win11 Build Check ByPass (RegEdit):
 At Install OS screen:
-Ctrl + F10
+SIFT  + F10
 In CMD:
 regedit
 
-Open Local Host/System/Startup
+Open Local Machine /System/Startup
 Create Key Called:
 LabConfig
 
 Add DWORDs:
-BypassTMPCheck
+BypassTPMCheck
 BypassSecureBootCheck
 
 Can do:
-BypassRAMCheck #not advsabel as it requires 4GB RAM.
+BypassRAMCheck #not advisable as it requires 4GB RAM.
 
 then set all value data to 1.
 
 Close RegEdit
 Close CMD and then hit Install.....this will drop you in to notice and licence terms agreement screen.
 
-If .....you get a watermake on on desktop saying build does not meet minium requirments this can be changed again in RegEdit at:
+If .....you get a watermark on desktop saying the build does not meet minimum requirements this can be changed again in RegEdit at:
 HKey_Current_User\Control Pannel\UnsupportedHardwareNotificationCache
-Entery Type: DWORD
+Enter Type: DWORD
 Enter Name: SV2
-Enry Value: 0
+Enter Value: 0
+
 
 
 
