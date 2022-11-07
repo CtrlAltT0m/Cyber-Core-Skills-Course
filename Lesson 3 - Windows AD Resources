@@ -1,6 +1,62 @@
-
-
-
-
 LINKS:
+
+
+
+Build Check List:
+
+DC
+1.	Build Server
+2.	Set Hostname
+3.	Set IP Address
+4.	Install Domain Services 
+5.	Check DNS
+6.	Add User
+7.	Add Global Security Group
+8.	Add Local Security Group
+9.	Set Group Policy (security/software)
+
+File Server
+1.	Build Server
+2.	Set Hostname
+3.	Set IP Address
+4.	Join FS to domain
+5.	Create folders Structure
+6.	Share folder structure
+7.	Set permission to Local Security Group
+
+Exchange Server
+1.	Build Server
+2.	Set Hostname
+3.	Set IP Address
+4.	Join EXCHANGE to domain
+5.	Install Pre-req software
+6.	Install Exchange Server 2019
+7.	Add Mail Boxes
+8.	Test email through the exchange server
+
+Web Server (Windows IIS)
+1.	Build Server
+2.	Set Hostname
+3.	Set IP Address
+4.	Join Web Server to domain
+5.	Install IIS Web Services
+6.	Set Permissions
+7.	Add website
+
+Win10/11 Client
+1.	Build Client
+2.	Set Hostname
+3.	Set IP Address
+4.	Join client to domain
+5.	Log on with test user
+
+
+
+
+
+
+
+
+
+
 
