@@ -51,6 +51,30 @@ Win10/11 Client
 5.	Log on with test user
 
 
+______________________________
+Win11 Build Check ByPass:
+At Install OS screen:
+Ctrl + F10
+In CMD:
+regedit
+
+Open Local Host/System/Startup
+Create Key Called:
+LabConfig
+
+Add DWORDs:
+BypassTMPCheck
+BypassSecureBootCheck
+
+Can do:
+BypassRAMCheck #not advsabel as it requires 4GB RAM.
+
+then set all value data to 1.
+
+Close RegEdit
+Close CMD and then hit Install.....this will drop you in to notice and licence terms agreement screen
+
+
 
 
 
