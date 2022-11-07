@@ -2,7 +2,7 @@
 
 ![BANNER](https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png)
 
-<a href="url"><img src="https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png" align="center" height="398" width="1584" ></a>
+<a href="url"><img src="https://i.ibb.co/hLtL15x/Simple-Technology-Linked-In-Banner.png" align="center" height="198" width="792" ></a>
 
 
 
