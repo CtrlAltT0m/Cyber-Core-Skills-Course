@@ -72,7 +72,13 @@ BypassRAMCheck #not advsabel as it requires 4GB RAM.
 then set all value data to 1.
 
 Close RegEdit
-Close CMD and then hit Install.....this will drop you in to notice and licence terms agreement screen
+Close CMD and then hit Install.....this will drop you in to notice and licence terms agreement screen.
+
+If .....you get a watermake on on desktop saying build does not meet minium requirments this can be changed again in RegEdit at:
+HKey_Current_User\Control Pannel\UnsupportedHardwareNotificationCache
+Entery Type: DWORD
+Enter Name: SV2
+Enry Value: 0
 
 
 
