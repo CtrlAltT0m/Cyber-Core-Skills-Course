@@ -38,9 +38,9 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 - Part 2 - Comming Next :)
-- Top Up - Build Win 11 VM with TPM and Secure Boot Bypass: 
+- Top Up - Build Win 11 VM with TPM and Secure Boot Bypass: https://studio.youtube.com/video/cLS3TVrqXfk/edit
 - Quiz: Comming Soon
-- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%203%20-%20Windows%20AD%20Resources
+- Resourses: https://youtu.be/cLS3TVrqXfk
 
 ### Lesson 4 Linux 🐧
 - Comming Soon
