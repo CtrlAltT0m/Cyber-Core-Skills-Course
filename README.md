@@ -85,12 +85,12 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 # Additional Information:
 
 😃 To get the latest info and course support, join us on our DISCORD server: 
-https://tinyurl.com/corecyberskillscoursediscord
+https://discord.gg/4JJvdd7s
 - Where each lesson is broken down into channels with pinned resources from the lessons
 
 
 🗣️ Please provide some feedback: 
-https://tinyurl.com/corecyberskillscoursefeedback
+https://docs.google.com/forms/d/e/1FAIpQLSeFG66x93UJYFaB562RVKTZVRCEYAanEJtG0bxQsTvxDacktA/viewform
 
 
 
@@ -98,6 +98,8 @@ https://tinyurl.com/corecyberskillscoursefeedback
 https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 
 
+☕BuyMeACoffee:
+https://www.buymeacoffee.com/CyberCoreSkills
 
 
 
