@@ -36,6 +36,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 ### Lesson 3 Windows, Windows Domains and Microsoft Active Directories 🖥️
 - Part 1 - Windows AD - Building a host DC and file Server: https://youtu.be/obURjd9nPo8
 - Part 2 - Comming Next :)
+- Top Up - Planning a Windows Domain: https://youtu.be/lflE6aATAWw
 - Top Up - Build Win 11 VM with TPM and Secure Boot Bypass: https://youtu.be/cLS3TVrqXfk
 - Quiz: Comming Soon
 - Resourses: https://youtu.be/cLS3TVrqXfk
