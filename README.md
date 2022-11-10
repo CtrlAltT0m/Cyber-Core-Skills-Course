@@ -101,5 +101,22 @@ https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 https://www.buymeacoffee.com/CyberCoreSkills
 
 
-
+1. rails g migration add_like_to_projects like_counter:integer
+2. routes.rb ->
+  resources :projects do
+    get :like, on: :member
+  end 
+3. projects_controller.rb ->
+  def like
+    session[:project_ids] ||= []
+    
+    if session[:project_ids].include? params[:id].to_i
+      redirect_to @project, alert: "Liked already"
+    else
+      session[:project_ids] << @project.id
+      @project.like_counter += 1
+      @project.save
+      redirect_to @project, notice: "Thanks for liking!"
+    end
+end
 
