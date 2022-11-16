@@ -79,6 +79,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 ### Lesson 11 Soft Skills in Cyber 🛗
 - Top Up - Top UK Cyber Qualifications and Certifications to have in 2022 - https://youtu.be/HNs2afu4mdY
+- Top Up - Tools to enable and support learning - https://youtu.be/3y7pPldPQQE
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%2011%20-%20Soft%20Skills%20Resources
 
 
