@@ -1,6 +1,6 @@
 # Cyber-Core-Skills-Course
 
-![BANNER](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/BANNER.png)
+![BANNER](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WELCOME.mp4)
 
 Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
 This is a course that is ever growing so please check back for more content!
