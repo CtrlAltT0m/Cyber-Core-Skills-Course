@@ -58,6 +58,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Quiz: Comming Soon
 
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
+- Top Up - Lockheed Martin Cyber Kill Chain:  Comming Soon
 - Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 - Quiz: Comming Soon
 
@@ -73,7 +74,8 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 ### Lesson 10 Governance, Risk and Compliance (GRC)  📚
-- Comming Soon
+- Lesson 1 Part 1: Comming Soon
+- Top Up - MITRE ATT&CK Framework:  Comming Soon
 - Quiz: Comming Soon
 
 
