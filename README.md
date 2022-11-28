@@ -88,7 +88,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 
 
-# Additional Information:
+# Follow the Cyber Core Skills Course on Everything:
 
 😃 To get the latest info and course support, join us on our DISCORD server: 
 https://discord.gg/4JJvdd7s
@@ -98,11 +98,22 @@ https://discord.gg/4JJvdd7s
 🗣️ Please provide some feedback: 
 https://docs.google.com/forms/d/e/1FAIpQLSeFG66x93UJYFaB562RVKTZVRCEYAanEJtG0bxQsTvxDacktA/viewform
 
-
-
 🪣 The Story:
 https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 
 
 ☕BuyMeACoffee:
 https://www.buymeacoffee.com/CyberCoreSkills
+
+
+# Follow Me on Everything:
+Home Page: http://ctrlaltt0m.co.uk
+Podcast: http://tun.in/preqX
+Twitter: https://twitter.com/CtrlAltT0m
+Linkedin: https://www.linkedin.com/in/tomcyber/
+YouTube: https://www.youtube.com/@CtrlAltT0m
+GitHub: https://github.com/CtrlAltT0m
+Join the Discord Server: https://discord.gg/rxFMtWCVwh
+
+
+
