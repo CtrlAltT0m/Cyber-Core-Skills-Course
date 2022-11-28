@@ -95,7 +95,7 @@ https://discord.gg/4JJvdd7s
 - Where each lesson is broken down into channels with pinned resources from the lessons
 
 
-🗣️ Please provide some feedback: 
+🗣️ Please provide some Course/Video Feedback: 
 https://docs.google.com/forms/d/e/1FAIpQLSeFG66x93UJYFaB562RVKTZVRCEYAanEJtG0bxQsTvxDacktA/viewform
 
 🪣 The Story:
