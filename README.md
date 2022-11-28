@@ -106,7 +106,7 @@ https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 https://www.buymeacoffee.com/CyberCoreSkills
 
 
-# Follow Me on Everything:
+# Follow Me on Everything: ![image](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif)
 
 - Home Page: http://ctrlaltt0m.co.uk
 - Podcast: http://tun.in/preqX
@@ -116,4 +116,4 @@ https://www.buymeacoffee.com/CyberCoreSkills
 - GitHub: https://github.com/CtrlAltT0m
 - Join the Discord Server: https://discord.gg/rxFMtWCVwh
 
-![image](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif)
+
