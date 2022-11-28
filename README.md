@@ -107,13 +107,13 @@ https://www.buymeacoffee.com/CyberCoreSkills
 
 
 # Follow Me on Everything:
-Home Page: http://ctrlaltt0m.co.uk
-Podcast: http://tun.in/preqX
-Twitter: https://twitter.com/CtrlAltT0m
-Linkedin: https://www.linkedin.com/in/tomcyber/
-YouTube: https://www.youtube.com/@CtrlAltT0m
-GitHub: https://github.com/CtrlAltT0m
-Join the Discord Server: https://discord.gg/rxFMtWCVwh
+- Home Page: http://ctrlaltt0m.co.uk
+- Podcast: http://tun.in/preqX
+- Twitter: https://twitter.com/CtrlAltT0m
+- Linkedin: https://www.linkedin.com/in/tomcyber/
+- YouTube: https://www.youtube.com/@CtrlAltT0m
+- GitHub: https://github.com/CtrlAltT0m
+- Join the Discord Server: https://discord.gg/rxFMtWCVwh
 
 
 
