@@ -107,8 +107,7 @@ https://www.buymeacoffee.com/CyberCoreSkills
 
 
 # Follow Me on Everything: 
-
-![image](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif) - Home Page: http://ctrlaltt0m.co.uk
+- Home Page: http://ctrlaltt0m.co.uk
 - Podcast: http://tun.in/preqX
 - Twitter: https://twitter.com/CtrlAltT0m
 - Linkedin: https://www.linkedin.com/in/tomcyber/
