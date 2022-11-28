@@ -107,6 +107,11 @@ https://www.buymeacoffee.com/CyberCoreSkills
 
 
 # Follow Me on Everything:
+
+
+
+
+
 - Home Page: http://ctrlaltt0m.co.uk
 - Podcast: http://tun.in/preqX
 - Twitter: https://twitter.com/CtrlAltT0m
