@@ -117,3 +117,7 @@ https://www.buymeacoffee.com/CyberCoreSkills
 - Join the Discord Server: https://discord.gg/rxFMtWCVwh
 
 ![BANNER](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif)
+
+
+
+![](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif =250x250)
