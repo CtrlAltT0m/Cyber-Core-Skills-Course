@@ -120,4 +120,4 @@ https://www.buymeacoffee.com/CyberCoreSkills
 
 
 
-![](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif=250x250)
+![](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WelcomeCtrlAltT0mLogoRoll.gif =250x250)
