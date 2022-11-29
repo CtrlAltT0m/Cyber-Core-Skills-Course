@@ -1,0 +1,410 @@
+
+
+_______________________
+AWS Cloud Practitoner Notes:
+
+EC2 - Virtual Server....
+
+- General Purpose machines
+- Compute Optimized
+- Memory Optimized - Hight RAM - Databases
+- Accelerated Computing - has GPU - ML/AI
+- Storage Optimized - data warehouing
+
+a = ARM core
+i= intel cilocn
+n= fast networlking
+
+https://aws.amazon.com/ec2/instance-types
+
+
+EC2 AWS Pay - 
+On-Demand - PAYG
+Spot Instance - PAYG but can be taken away - flexible
+Compute Saving Plan - 66% off.....subscription 
+Dedicated - Licences or socket-based
+Dedicated Instance - required for WIN10 licences
+
+
+EC2 Auto Scaling - 
+Schedule for peak
+Set Min and Desired
+Scale as needed
+Smart scheduling
+
+
+
+Elastic Load Balancing - 
+USes auto-scaling
+
+
+Auto scale vs Load Balancing
+--- remove 
+
+Load balances forwarded to AutoScaller
+
+
+
+
+Amazon Simple Notification Service (SNS) - 
+Get subscribed notifications via email/SMSs etc
+
+Amazon Simple Queue Server (SQS) - 
+Notification ... trnastion ... notification
+
+
+
+AWS Lambda - 
+Serverless ..... no requirement for the server just run code....
+trigger code automatically...
+
+
+
+EventBridge - scheduled event and runs
+
+
+ECS - Docker Serice
+API docker enabld
+Containers - 
+
+
+EKS - Kubernetes service
+aka K8
+
+
+AWS Fargate - runs ECS and EKS pay only resources use!
+
+Reserved contract lengths: 1 + 3 years
+
+
+
+
+Global infra and reliability - 
+
+i.e Data centres
+
+Availability zones and edge services
+
+Region = at least 2 availability zones...
+
+AZ - a cluster of data centres - at least 1 data centre
+
+
+CloudFront - global delivery network
+
+Edge Services - 
+
+AWS Outposts  -  run AWS equipment on PREM. - legal requirement
+
+
+
+Provides speed > availability
+
+proximity to customers and compliance
+
+
+
+Interact with AWS Services - 
+via EC2
+
+API requests
+
+Console
+Command Line
+
+
+
+
+
+
+
+Networking:
+
+VPC - Virtual Private Cloud = isolated network on AWS
+
+Virtual Private Gateway = VPN
+
+Private Subnet  = databases
+
+AWS Direct Connect = dedicate on-prem to cloud.
+
+
+
+
+
+Firewalls:
+N ACLs are applied at subnet level
+stateless - explict rules for in/out trafic
+
+Security Group inside VPC and Public subnet
+Low lever
+These are stateful - auto-allow back 
+by default block all inbound
+Tied to an instance
+
+
+Interact with AWS Global network via FQDN
+
+
+
+AWS Route 53 - AWS DNS Service
+AWS Managed Service
+
+Send to CloudFront > Load Ballencer > EC2 or send to Route 53
+
+
+
+
+
+
+
+STORAGE:
+
+
+S3 bucker = storage
+Simple storage solution
+
+Elastic file system - shared storage - EFS, FSx ( for windows)
+
+
+Block storage = block map
+Like a HDD
+Attached to EC2
+ - comes in instance store - ephemeral storage.... none volatile memoryexpressphysicall data) - ingest data - data processing - RAM
+ - Elastic block store volumes - presence - HDD - OS - APP data
+
+EBS snapshot
+Incremental = all changes since last backup
+
+
+Object-based storage - immutable - 
+Write once read many
+
+= S3 buckets
+Regional 
+Public 
+Store Class - 
+
+Classes:
+S3 Standard - always leave frequent access stores in min 3 avabilety zones
+S3 Srarned  - IA- less cost - infrequant access
+S3 OneZore - less avablity....retrieval expensive
+S3 Glacia (archiving) - flex and Deep archive......12 hours to get.
+S3 Glacia Deep Archiveere compliances
+
+
+
+File Storage - shared block-level
+Elastic File System - Linux
+FSx for Windows
+Multpul region
+
+
+accross Avabilty Zones...run on reganal level
+
+
+
+AWS Database:
+
+Types: 
+
+relational and non-elationalshal
+
+Relational
+Priamy key and forign key
+
+Key - name
+Value - Tom
+
+
+The key stored: 
+Key (title) Value (a record)
+
+
+SQL 
+
+
+
+
+Amazon Relational Database (RDS)
+- stre
+- crypt
+Engines: OracleSQL server, OS: MySQL, Postgres, MariaDB
+
+
+
+AWS Arura - is a non-relational database
+
+
+
+Amazon DynamoDB - key-value pair database .... serverless ....auto-scale
+
+
+AWS Database Migration
+
+
+AWS Redshift - data warehouse
+
+AWS Document DB - mongo DB
+
+AWS Nepture - GraphQL
+
+AWS QLDB - see previous DVLA tract old records of cards
+
+
+AWS Managed Blockchain
+AWS ElastiCache - Redisash data services
+Amazon DynmoDB Accelatore - speed service
+
+
+
+
+
+
+
+SECURITY:
+
+IAM = tempary access 
+
+Identity management - 
+
+roles - 
+1 - cross country administration
+2 - assume a role
+3 - Federated users
+4 - 
+
+
+Permissions
+Multi-Factor Auth
+policy  - Least privilege follow - written in JSON
+
+SCP
+
+
+
+Compliance 
+- AWS Artifacts - on-demand reports
+- Accept agreements 
+
+
+
+AWS WAF (Web application firewall):
+Profect front end
+
+
+AWS Sheild - DDOS protect
+Sheild basic - free
+Sheild - advanced - not free
+
+
+AWS Inspector - watch EC2 fix security issues....is the patch up to date?
+
+
+AWS Key manamgnet service (KMS) creates/delete keys
+
+
+
+AWS Guard Duty - logging of accounts ...logging...
+
+
+
+
+MONITORING:
+
+AWS CloudWatch - 
+
+Up/down
+
+Create alarms
+
+Create actions..
+
+
+AWS CloudTrain - Audit
+event tracking ... trackback
+Event History ....dashboard
+
+
+
+AWS Trusted Advisor - best practice - enterprise/business support 
+Allows for:
+- cost operation
+- performance
+- fault tolerance
+
+
+
+
+PRICING:
+
+
+Pay as you go
+Pay less when you reserve
+Pay plus with a column with discount
+
+
+Consolidating Billing - reduce cost....11000 accounts 1 bill.
+Itemised
+
+Budgets set at service level...account level or project level#
+
+Contact Technical Accounts manager > Enterprise plan
+
+
+
+Cost Plan:
+Business > Enterprise
+
+Basic/Trail = free
+
+
+
+
+AWS Market Place
+- App store for AWS
+
+
+
+
+
+MIGRATION AND INNOVATION:
+
+Steps:
+1 - rehosting build on-prem to cloud....lift and shift (VM > EC2)..
+2 - Reactutect - Rebuild to the cloud ....cloud-native ...v2
+3 - Repurchase - use SaaS instead of full server
+4 - Retain - Legacy/unsupported 
+5 - Retire
+
+
+AWS Snowcone - Small rugged device ... feature 8TB data
+AWS Snowball device -80TB 
+AWS Snowmobile - 100PB storage
+
+
+
+
+Innovation
+AI
+ML
+Serverless applications
+
+
+
+
+Well-Architecture Framework - 
+1 - Operational Excellence ... assume all going to fail...document... frequent, small changes regularly.
+2- Security...automate...encrypt data at rest and on the move
+3 - Reliability...
+4 - Performances efficacy
+5 - Cost optimisation
+6 - Sustavtilty 
+
+
+_____________________________________________________________________
+
+
+
+
+
