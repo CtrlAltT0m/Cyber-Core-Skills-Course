@@ -42,12 +42,12 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Top Up - Planning a Windows Domain: https://youtu.be/lflE6aATAWw
 - Top Up - Build Win 11 VM with TPM and Secure Boot Bypass: https://youtu.be/cLS3TVrqXfk
 - Quiz: Comming Soon
-- Resourses: https://youtu.be/cLS3TVrqXfk
+- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%203%20-%20Windows%20AD%20Resources
 
 ### Lesson 4 Linux 🐧
 - Comming Soon
 - Quiz: Comming Soon
-- - Resourses: Comming Soon
+- Resourses: Comming Soon
 
 ### Lesson 5 Blue Teaming and SIEM Building 📘
 - Comming Soon
@@ -66,7 +66,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 ### Lesson 8 Cloud Overview ☁️
 - Comming Soon
 - Quiz: Comming Soon
-
+- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Overview
 
 ### Lesson 9 Building out using AUTOMATION 🧱
 - Comming Soon
