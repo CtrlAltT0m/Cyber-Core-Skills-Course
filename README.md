@@ -38,7 +38,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Part 2a - Windows AD - Build a Domain Controller inc. AD/GP/Users/Groups and joining WIN10 Client to domain: https://youtu.be/VldZS0CKY7k
 - Part 2b - Windows AD - Build a File Server: https://youtu.be/HyFWSXwtDWE
 - Part 2c - Windows AD - Build a IIS Web Server: https://youtu.be/XxbrDUC_0ts
-- Part 2d - Windows AD - Build a Exchange Server: Comming Soon
+- Part 2d - Windows AD - Build a Exchange Server: https://youtu.be/rGhSQiYuh8A
 - Top Up - Planning a Windows Domain: https://youtu.be/lflE6aATAWw
 - Top Up - Build Win 11 VM with TPM and Secure Boot Bypass: https://youtu.be/cLS3TVrqXfk
 - Quiz: Comming Soon
