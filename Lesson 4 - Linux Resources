@@ -1,4 +1,67 @@
-Top 53 Linux Commands
+Linux Basic Commands:
+
+Prompt:
+~ - home folder
+$ - user
+# - root
+
+Key Notes:
+files with a .<filename> are hidden
+
+Help Features: 
+man <command> - maunal of any command
+<command> --help or -h  - gives help for each command
+* - wildcard
+press up arrows - gives last commands
+
+
+Navigating file system:
+pwd - present working directory
+cd /home/user/Desktop - Changing driectroty using aberslute path
+cd .. or . - cd using relative path . = current directory .. = 1 level above#
+cd ~ - cd using shortcut to home folder
+ls - list file and folders
+options:
+-l  - long list/detailed view
+-la - long list and display all hidden file
+      alternative for this option is: ll (meaning long list)
+cat /home/user/<filename> - open file within CLI
+    or cat ~/<filename>
+more <filename> - display file on CLI
+less - display whole file without the prompt
+clear - clears screen
+echo - repeats text
+
+
+File Interaction:
+touch - creates files on the fly
+> - redirects and overwrites text to a file
+>> - redirects and appends (adds to bottom) to file
+rm <filename> - remove file/direcroty 
+mv <source file> <chosen filename> - renaming a file
+mv <source> <destination> e.g. below - moving a file
+mv /home/user/Desktop/names ~/Download/ - moving a file
+cp - copy a file source and destination required
+
+
+
+Install Software/Programmes:
+wget <url>
+sudo - run a command as root (as long as you are apart of suders/wheelers group)
+apt-get install <programme name i.e VIM> 
+apt-get update - install updates 
+apt-get upgrade - install upgrades more OS related
+
+
+
+
+
+
+
+
+
+_________________________________
+Top ** Linux Commands
 
 ls - The most frequently used command in Linux to list directories
 pwd - Print working directory command in Linux
@@ -17,6 +80,8 @@ man - Access manual pages for all Linux commands
 uname - Linux command to get basic information about the OS
 whoami - Get the active username
 tar - Command to extract and compress files in Linux
+#-cf - Create archieve
+#-xf - Exctract
 grep - Search for a string within an output
 head - Return the specified number of lines from the top
 tail - Return the specified number of lines from the bottom
