@@ -47,7 +47,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 ### Lesson 4 Linux 🐧
 - Comming Soon
 - Quiz: Comming Soon
-- Resourses: Comming Soon
+- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
 
 ### Lesson 5 Blue Teaming and SIEM Building 📘
 - Comming Soon
