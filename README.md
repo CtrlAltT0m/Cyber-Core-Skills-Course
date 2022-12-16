@@ -45,7 +45,9 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%203%20-%20Windows%20AD%20Resources
 
 ### Lesson 4 Linux 🐧
-- Comming Soon
+- Part 1 - Linux OS Introduction: https://youtu.be/Jjm0FtaIpSU
+- Part 2 - Basic Linux Commands: https://youtu.be/S1HZFnFl3lc
+- Part 3 - Comming Soon
 - Quiz: Comming Soon
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
 
