@@ -29,6 +29,7 @@ Help Features:
 man <command> - manual of any command
 <command> --help or -h  - gives help for each command
 * - wildcard
+? - single charector
 press up arrows - gives last commands
 
 
@@ -46,6 +47,7 @@ cat /home/user/<filename> - open file within CLI
     or cat ~/<filename>
 more <filename> - display file on CLI
 less - display whole file without the prompt
+strings - look at strings of a text file
 clear - clears screen
 echo - repeats text
 
@@ -64,14 +66,14 @@ cp - copy a file source and destination required
 
 Install Software/Programmes:
 wget <url>
-sudo - run a command as root (as long as you are apart of sudoers/wheelers group)
-apt-get install <programme name i.e VIM> 
+sudo - run a command as root (as long as you are apart of sudoers/wheels group)
+apt-get install <programme name i.e vim> 
 apt-get update - install updates 
 apt-get upgrade - install upgrades more OS related
 
 
 
-
+Escape!!!! Ctrl + C
 
 
 
