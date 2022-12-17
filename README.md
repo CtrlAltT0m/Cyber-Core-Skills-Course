@@ -46,6 +46,7 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 
 ### Lesson 4 Linux 🐧
 - Part 1 - Linux OS Introduction: https://youtu.be/Jjm0FtaIpSU
+- Top Up - Linux Build a VM (Ubuntu and Kali): https://youtu.be/Y3zSuk-AtFg
 - Part 2 - Basic Linux Commands: https://youtu.be/S1HZFnFl3lc
 - Part 3 - Comming Soon
 - Quiz: Comming Soon
