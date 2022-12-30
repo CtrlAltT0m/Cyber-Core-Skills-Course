@@ -97,6 +97,8 @@ Course Introduction https://youtu.be/gRNQ7VI57fg
 https://discord.gg/4JJvdd7s
 - Where each lesson is broken down into channels with pinned resources from the lessons
 
+🛍️ Get the Merch:
+https://www.etsy.com/uk/shop/CtrlAltT0m
 
 🗣️ Please provide some Course/Video Feedback: 
 https://docs.google.com/forms/d/e/1FAIpQLSeFG66x93UJYFaB562RVKTZVRCEYAanEJtG0bxQsTvxDacktA/viewform
@@ -104,10 +106,8 @@ https://docs.google.com/forms/d/e/1FAIpQLSeFG66x93UJYFaB562RVKTZVRCEYAanEJtG0bxQ
 🪣 The Story:
 https://medium.com/@CtrlAltT0m/launching-cyber-core-skills-course-8735762ebf2f
 
-
 ☕BuyMeACoffee:
 https://www.buymeacoffee.com/CyberCoreSkills
-
 
 # Follow Me on Everything: 
 - Home Page: http://ctrlaltt0m.co.uk
