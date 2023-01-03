@@ -79,6 +79,26 @@ Escape!!!! Ctrl + C
 
 
 
+
+
+VI and VIM Commands: 
+vim   #open
+vim TESTDOC #open and create file
+
+i = insert mode #start typing
+Esc = command mode
+
+:w    #save
+:q! #exit with out saving
+:wq #save adn exit
+
+dd #delete line
+
+Additional commands:
+Link: https://vim.rtorr.com/
+
+
+
 _________________________________
 Top ** Linux Commands
 
