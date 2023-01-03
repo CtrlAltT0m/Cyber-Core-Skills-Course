@@ -50,6 +50,7 @@ https://www.youtube.com/playlist?list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 - Top Up - Linux Build a VM (Ubuntu and Kali): https://youtu.be/Y3zSuk-AtFg
 - Part 2 - Basic Linux Commands: https://youtu.be/S1HZFnFl3lc
 - Short - Update adn Upgrade Linux: https://youtube.com/shorts/mhRmZdi-Gtk
+- Top Up - Linux Text Editors (Vi/VIM/NANO/GEDIT): https://youtu.be/d-Cr0jJinS0
 - Part 3 - Comming Soon
 - Quiz: Comming Soon
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
