@@ -49,6 +49,7 @@ https://www.youtube.com/playlist?list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 - Part 1 - Linux OS Introduction: https://youtu.be/Jjm0FtaIpSU
 - Top Up - Linux Build a VM (Ubuntu and Kali): https://youtu.be/Y3zSuk-AtFg
 - Part 2 - Basic Linux Commands: https://youtu.be/S1HZFnFl3lc
+- Short - Update adn Upgrade Linux: https://youtube.com/shorts/mhRmZdi-Gtk
 - Part 3 - Comming Soon
 - Quiz: Comming Soon
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
