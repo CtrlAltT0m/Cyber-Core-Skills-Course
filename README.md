@@ -14,8 +14,8 @@ https://www.youtube.com/playlist?list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 # Course Contents:
 
 ### Lesson 0 Intro ✨
-Course Introduction: https://youtu.be/gRNQ7VI57fg
-Trainer Intorduction: https://youtu.be/vApoZVUKIjc
+- Course Introduction: https://youtu.be/gRNQ7VI57fg
+- Trainer Intorduction: https://youtu.be/vApoZVUKIjc
 
 
 ### Lesson 1 Networking 🔀
