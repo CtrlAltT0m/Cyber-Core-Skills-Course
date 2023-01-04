@@ -14,7 +14,7 @@ https://www.youtube.com/playlist?list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 # Course Contents:
 
 ### Lesson 0 Intro ✨
-- Course Introduction: https://youtu.be/gRNQ7VI57fg
+- Course Introduction: Updated(4 Jan 23) - https://youtu.be/m7YyZsV1-FY         Original - https://youtu.be/gRNQ7VI57fg
 - Trainer Intorduction: https://youtu.be/vApoZVUKIjc
 
 
