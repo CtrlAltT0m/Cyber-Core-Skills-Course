@@ -97,7 +97,7 @@ https://www.youtube.com/playlist?list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 # Follow the Cyber Core Skills Course on Everything:
 
 😃 To get the latest info and course support, join us on our DISCORD server: 
-https://discord.gg/4JJvdd7s
+https://discord.gg/rxFMtWCVwh
 - Where each lesson is broken down into channels with pinned resources from the lessons
 
 🛍️ Get the Merch:
