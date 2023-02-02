@@ -7,9 +7,9 @@ This is a course that is ever growing so please check back for more content!
 
 ## Join the Course:
 
-Step 1: 😋 Subscribe 😋 https://www.youtube.com/channel/UC7FvjvAs2BRdMftHrkdcVYw?sub_confirmation=1
-Step 2: 😃 Join the DISCORD server 😃 https://discord.gg/rxFMtWCVwh
-Step 3: 🎥 Check out the videos below 🎥
+- Step 1: 😋 Like and Subscribe 😋 https://www.youtube.com/channel/UC7FvjvAs2BRdMftHrkdcVYw?sub_confirmation=1
+- Step 2: 😃 Join the DISCORD server 😃 https://discord.gg/rxFMtWCVwh
+- Step 3: 🎥 Check out the videos below 🎥
 
 
 # Course Contents:
