@@ -6,10 +6,10 @@ Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
 This is a course that is ever growing so please check back for more content!
 
 ## Join the Course:
-
-- Step 1: 😋 Like and Subscribe 😋 https://www.youtube.com/channel/UC7FvjvAs2BRdMftHrkdcVYw?sub_confirmation=1
-- Step 2: 😃 Join the DISCORD server 😃 https://discord.gg/rxFMtWCVwh
-- Step 3: 🎥 Check out the videos below 🎥
+Steps: 
+1 - 😋 Like and Subscribe 😋 https://www.youtube.com/channel/UC7FvjvAs2BRdMftHrkdcVYw?sub_confirmation=1
+2 - 😃 Join the DISCORD server 😃 https://discord.gg/rxFMtWCVwh
+3 - 🎥 Check out the videos below 🎥
 
 
 # Course Contents:
