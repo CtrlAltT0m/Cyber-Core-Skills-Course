@@ -87,6 +87,7 @@ Steps:
 
 
 ### Lesson 11 Soft Skills in Cyber 🛗
+- Top Up - Many Certificates Equal 1 Certificate! - https://youtu.be/PijiRMz4JbU
 - Top Up - Building a Personal Branding (Basics) - https://youtu.be/g_sbXnU-6x4
 - Top Up - Top UK Cyber Qualifications and Certifications to have in 2022 - https://youtu.be/HNs2afu4mdY
 - Top Up - Tools to enable and support learning - https://youtu.be/3y7pPldPQQE
