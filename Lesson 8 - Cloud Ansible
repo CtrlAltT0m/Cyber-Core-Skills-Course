@@ -1,0 +1,43 @@
+
+
+
+
+############# Join WIN CLients to domain
+
+---
+- name: Create Windows domain
+  hosts: dc
+  gather_facts: yes
+
+  tasks:
+    - name: Install RSAT-AD-Tools
+      win_feature:
+        name: RSAT-AD-Tools
+        state: present
+
+    - name: Promote server to domain controller
+      win_domain_controller:
+        domain_admin_user: "Administrator"
+        domain_admin_password: "Password123!"
+        domain_name: "test.lab"
+        safe_mode_password: "Password123!"
+        state: present
+
+    - name: Restart the server
+      win_reboot:
+
+- name: Join clients to domain
+  hosts: clients
+  gather_facts: yes
+
+  tasks:
+    - name: Join client to domain
+      win_domain_membership:
+        domain_admin_user: "Administrator"
+        domain_admin_password: "Password123!"
+        domain_name: "test.lab"
+        hostname: "{{ inventory_hostname }}"
+        password: "Password123!"
+        workgroup: ""
+        username: "Administrator"
+        state: present
