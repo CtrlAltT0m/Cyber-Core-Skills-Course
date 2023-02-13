@@ -73,7 +73,10 @@ Steps:
 ### Lesson 8 Cloud Overview ☁️
 - Comming Soon
 - Quiz: Comming Soon
-- Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Overview
+- Resourses: 
+- Overview - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Overview
+- Terraform - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Terraform
+- Ansible - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Ansible
 
 ### Lesson 9 Building out using AUTOMATION 🧱
 - Comming Soon
