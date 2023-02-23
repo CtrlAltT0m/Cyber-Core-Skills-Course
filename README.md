@@ -63,6 +63,7 @@ Steps:
 ### Lesson 6 Scripting (Python and BASH) 🐍
 - Comming Soon
 - Quiz: Comming Soon
+- Resourses (Python): https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
 
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Top Up - Lockheed Martin Cyber Kill Chain:  Comming Soon
@@ -75,8 +76,8 @@ Steps:
 - Quiz: Comming Soon
 - Resourses: 
 - Overview - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Overview
-- Terraform - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Terraform
-- Ansible - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Ansible
+- Resourses (Terraform) - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Terraform
+- Resourses (Ansible) - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Ansible
 
 ### Lesson 9 Building out using AUTOMATION 🧱
 - Comming Soon
