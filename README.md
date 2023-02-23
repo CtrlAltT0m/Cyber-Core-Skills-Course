@@ -63,7 +63,7 @@ Steps:
 ### Lesson 6 Scripting (Python and BASH) 🐍
 - Comming Soon
 - Quiz: Comming Soon
-- Resourses (Python): https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%204%20-%20Linux%20Resources
+- Resourses (Python): https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%206%20-%20Python%20Scripting%20Resources
 
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Top Up - Lockheed Martin Cyber Kill Chain:  Comming Soon
