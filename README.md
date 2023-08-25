@@ -98,5 +98,5 @@ Steps:
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%2011%20-%20Soft%20Skills%20Resources
 
 
-## CtrlAltT0m Info ##
+### CtrlAltT0m Info
 - Check out all my links - https://linktr.ee/ctrlaltt0m
