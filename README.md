@@ -2,15 +2,14 @@
 
 ![BANNER](https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/WELCOME.gif)
 
-Welcome to the Core Cyber Skills Course. Hope you enjoy our videos.
-This is a course that is ever growing so please check back for more content!
+Welcome to the Core Cyber Skills Course. I hope you enjoy our videos.
+This is a course that is ever growing, so please check back for more content!
 
 ## Join the Course:
 Steps: 
-1. 😋 Like and Subscribe 😋 https://www.youtube.com/channel/UC7FvjvAs2BRdMftHrkdcVYw?sub_confirmation=1
-2. 😃 Join the DISCORD server 😃 https://discord.gg/rxFMtWCVwh
-3. 🎥 Check out the videos content below ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
-
+1. 😋 Like and Subscribe 😋 https://www.youtube.com/@CtrlAltT0m?sub_confirmation=1
+2. 😃 Join the DISCORD server 😃 https://discord.gg/EBr35FnWC2
+3. 🎥 Check out the videos and content below ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
 
 # Course Contents:
 
@@ -97,3 +96,7 @@ Steps:
 - Top Up - Top UK Cyber Qualifications and Certifications to have in 2022 - https://youtu.be/HNs2afu4mdY
 - Top Up - Tools to enable and support learning - https://youtu.be/3y7pPldPQQE
 - Resourses: https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%2011%20-%20Soft%20Skills%20Resources
+
+
+## CtrlAltT0m Info ##
+- Check out all my links - https://linktr.ee/ctrlaltt0m
