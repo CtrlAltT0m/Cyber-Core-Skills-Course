@@ -80,7 +80,8 @@ Steps:
 - Resourses (Ansible) - https://github.com/CtrlAltT0m/Cyber-Core-Skills-Course/blob/main/Lesson%208%20-%20Cloud%20Ansible
 
 ### Lesson 9 Building out using AUTOMATION 🧱
-- Comming Soon
+- Lesson Intro - https://youtu.be/hThx_L_pLFc
+- Tool: GitHub - https://youtu.be/PxEYfB6bgQo
 - Quiz: Comming Soon
 
 
