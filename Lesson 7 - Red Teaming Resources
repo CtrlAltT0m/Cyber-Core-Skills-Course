@@ -7,6 +7,12 @@ Immersive Labs: https://www.immersivelabs.com/
 VulnHub: https://www.vulnhub.com/
 
 
+Tools: 
+nmap
+CMD: sudo nmap -T4 -A -p- <IP ADDRESS> 
+
+
+
 Frameworks: 
 MITRE ATT&CK Framework: https://attack.mitre.org/
 Lockheed Marti Cyber Kill Chain: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
