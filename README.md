@@ -67,6 +67,7 @@ Steps:
 ### Lesson 7 Red Teaming Skills - You built it, you HACK it! 📕
 - Prepping your Kali VM with PimpMyKali.sh: https://youtu.be/AnjHZ8mYCdI
 - Tools - nmap - BASIC: https://youtu.be/zPm2l6k-wSQ
+- Tools - nmap - ADVANCED - How to hide your scan: BASIC:https://youtu.be/0AOhWQKM1fk
 - Top Up - Lockheed Martin Cyber Kill Chain:  Comming Soon
 - Top Up - Hack the Box (Blue - Fly through): https://youtu.be/ofc4Muwinwk
 - Quiz: Comming Soon
