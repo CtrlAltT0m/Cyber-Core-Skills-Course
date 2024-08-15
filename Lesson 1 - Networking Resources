@@ -507,6 +507,50 @@ no shut
 sh ipv6 int br
 
 
+
+________________________________________________________________________________________________
+
+NETWORKING SECURITY:
+
+line console 0  
+password [YourConsolePassword]  
+login  
+
+line aux 0  
+password [YourAuxPassword]  
+login  
+
+line vty 0 4  
+password [YourVTYPassword]  
+login  
+
+enable secret [YourEnableSecret]  
+
+banner motd #Unauthorized access is prohibited.#  
+
+banner login #Authorized Personnel Only.#  
+
+no cdp run  
+
+no ip http server  
+no ip http secure-server  
+
+no service tcp-small-servers  
+no service udp-small-servers  
+
+service password-encryption  
+
+snmp-server community [YourCommunityString] RO  
+snmp-server community [YourCommunityString] RW  
+
+logging host [SyslogServerIP]  
+logging trap [SeverityLevel]  
+
+ntp server [NTPServerIP]
+
+
+
+
 ______________________________________
 
 CISCO ASA Commands:
