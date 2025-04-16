@@ -8,8 +8,7 @@ This is a course that is ever growing, so please check back for more content!
 ## Join the Course:
 Steps: 
 1. 😋 Like and Subscribe 😋 https://www.youtube.com/@CtrlAltT0m?sub_confirmation=1
-2. 😃 Join the DISCORD server 😃 https://discord.gg/EBr35FnWC2
-3. 🎥 Check out the videos and content below ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+2. 🎥 Check out the videos and content below ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
 
 # Course Contents:
 
