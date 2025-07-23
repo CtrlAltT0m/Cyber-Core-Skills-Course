@@ -161,3 +161,70 @@ Documents:
 Community: 
 Tools/Software:
 Cyber Core Skills Course: 
+
+
+
+Here’s a carefully curated list of top resources for learning VMware, broken down by Video Series, Documents, and Community:
+
+⸻
+
+🎥 Video Series
+	1.	Pluralsight – VMware vSphere Data Center Virtualization (VCP-DCV)
+	•	Deep coverage of ESXi, vCenter, VM management, networking, and storage.
+	•	Tailored for VCP certification.
+	•	pluralsight.com
+	2.	LinkedIn Learning – VMware vSphere Essential Training
+	•	Great for beginners; covers setup, VM provisioning, templates, and clustering.
+	•	Taught by VMware expert Rick Crisci.
+	3.	vSphere YouTube Channel
+	•	VMware vSphere Official
+	•	Includes webinars, new feature demos, and VMworld talks.
+	4.	David Bombal (YouTube) – VMware Labs
+	•	Free labs, networking with VMware, and NSX basics.
+	•	David Bombal’s Channel
+	5.	INE – VMware Learning Paths
+	•	More advanced topics like NSX, Horizon, and vSAN.
+	•	ine.com
+
+⸻
+
+📄 Documents
+	1.	VMware vSphere Documentation (Official)
+	•	The most comprehensive and up-to-date technical references.
+	•	VMware Docs
+	2.	VMware Hands-on Labs Guidebooks
+	•	Free, practical, and aligned with real-world environments.
+	•	labs.vmware.com
+	3.	VMware Validated Designs
+	•	Architecture and best practices for deploying large-scale VMware environments.
+	•	Ideal for enterprise engineers and consultants.
+	4.	“Mastering VMware vSphere” Book Series by Scott Lowe
+	•	Industry-standard book for learning VMware from ground up.
+	•	Highly recommended for home labs and certification study.
+	5.	VMware Learning Guides
+	•	Found on the VMware Learning Zone.
+	•	Step-by-step study guides and exam blueprints.
+
+⸻
+
+🌐 Community
+	1.	VMware Technology Network (VMTN)
+	•	VMTN Forums
+	•	Official support forum with subtopics for each product.
+	2.	r/vmware (Reddit)
+	•	Real-world discussions, home lab setups, certification advice.
+	•	r/vmware
+	3.	VMware Discord & Slack Groups
+	•	Community-driven chat for immediate help and networking.
+	•	Example: VMUG Discord
+	4.	VMUG (VMware User Group)
+	•	Local and global chapters, webinars, discounts on exams and training.
+	•	www.vmug.com
+	5.	Twitter/X Hashtags
+	•	Try #vExpert, #VMware, #vSphere for active conversations and event news.
+
+⸻
+
+Would you like recommendations tailored for certification (like VCP or VCAP), home lab setup, or enterprise deployment?
+
+
