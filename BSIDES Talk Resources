@@ -3,10 +3,12 @@ By Tom C aka CtrlAltT0m
 https://linktr.ee/ctrlaltt0m
 
 Event Details:
-	Date: Fri 25 Jul 25
-	Time: 1325 - 13
-	Leignth: 25 mins
-	Location: BSIDES Basingstoke
+🎤 BSides Basingstoke 2025 – "Breaking In, Giving Back: My Cyber Security Journey"
+🗣️ By: Tom C aka CtrlAltT0m – https://linktr.ee/ctrlaltt0m  
+📅 Date: Friday, 25 July 2025  
+🕐 Time: 13:25–13:50  
+📍 Location: BSides Basingstoke  
+⏱️ Duration: 25 minutes  
 
 
 Resourses for Skills Development:
@@ -68,62 +70,145 @@ Documents: https://learn.microsoft.com/en-gb/
 Community: Micorosoft DISCORD - https://discord.com/invite/microsoft-certification-study-group-676990910176821270
 Tools/Software:	
 	Micorosoft Client ISOs - https://www.microsoft.com/en-gb/software-download/
-	Micorosoft Server ISO - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+	Micorosoft Server ISOs - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+	UnderTheWire PowerShell Wargames - https://underthewire.tech/ 
 Cyber Core Skills Course: https://www.youtube.com/watch?v=obURjd9nPo8&list=PL8Gn6RI0ZV6UGwpQMSt_xxlpz2hI8drwS
 
 
 Linux, CLI and Open Source Software:
-Qualifacation:
+Qualification: Red Hat Certified System Administrator (RHCSA)
 Video Series:
-Documents: 
-Community: 
+    The Linux Foundation Essentials - https://www.youtube.com/playlist?list=PLbH21TCER0vHqHO9G2gMSE0Cun_kiN2Yv
+    NetworkChuck Linux for Hackers - https://www.youtube.com/playlist?list=PLhfrWIlLOoKPn2c6YyGdqsHBxJDk4SRxX
+    CBT Nuggets Linux+ Series - https://www.cbtnuggets.com/learn/it-training/linux
+Documents:
+    TLDP Bash Guide - https://tldp.org/LDP/Bash-Beginners-Guide/html/
+    GNU Core Utilities Manual - https://www.gnu.org/software/coreutils/manual/
+    Linux Command Line Book by Shotts - https://linuxcommand.org/tlcl.php
+Community:
+    Linux Discord - https://discord.gg/linux
+    r/Linux Reddit - https://www.reddit.com/r/linux/
+    Unix StackExchange - https://unix.stackexchange.com/
 Tools/Software:
+    OverTheWire Wargames - https://overthewire.org/wargames/
+    Ubuntu - https://ubuntu.com/download
+    Kali Linux - https://www.kali.org/
+    Arch Linux - https://archlinux.org/
+    Fedora - https://getfedora.org/
+    Debian - https://www.debian.org/
 Cyber Core Skills Course: https://www.youtube.com/watch?v=Jjm0FtaIpSU&list=PL8Gn6RI0ZV6UCbWvkdB-0rpD2iu9XqLfG
 
 
 BASH Scrpting:
-Qualifacation:
+Qualification: Linux Foundation Certified System Administrator (LFCS), CompTIA Linux+
 Video Series:
-Documents: 
-Community: 
+	    FreeCodeCamp Bash Course - https://www.youtube.com/watch?v=oxuRxtrO2Ag
+	    NetworkChuck Linux Series - https://www.youtube.com/playlist?list=PLhfrWIlLOoKPn2c6YyGdqsHBxJDk4SRxX
+Documents:
+	    Bash Cheatsheet DevHints - https://devhints.io/bash
+	    GitHub Git Cheatsheet - https://education.github.com/git-cheat-sheet-education.pdf
+	    TLDR Bash Commands - https://tldr.sh/
+	    GNU Bash Manual - https://www.gnu.org/software/bash/manual/bash.html
+Community:
+	    Linux Discord - https://discord.gg/linux
+	    Unixporn Reddit - https://www.reddit.com/r/unixporn/
+	    r/Bash Reddit - https://www.reddit.com/r/bash/
 Tools/Software:
-Cyber Core Skills Course: 
+	    Bash - https://www.gnu.org/software/bash/
+	    Oh My Bash - https://github.com/ohmybash/oh-my-bash
+	    Tmux - https://github.com/tmux/tmux/wiki
+
 
 
 Python:
-Qualifacation:
-Video Series:
+Video Series: Udemy Bootcamp - https://www.udemy.com/course/complete-python-bootcamp/
 Documents: 
-Community: 
-Tools/Software:
-Cyber Core Skills Course: 
-
+	Online Resourse - Stoack OVerflow Python - https://stackoverflow.com/questions/tagged/python
+	Book - Python Compelte Guide - https://www.awesomebooks.com/book/9781785464409/python-the-complete-manual-second-edition/used 
+Community: Python Discord - https://discord.com/invite/python 
+Tools/Software: 
+	Install CMD on Linux: sudo apt install python3.10 python3.10-venv python3.10-dev
+	IDE - VS Code - https://code.visualstudio.com/ - note lots of add ons with this software
+	Notepad ++ - https://notepad-plus-plus.org/
+	Jupyter Notebook - https://jupyter.org/
+	
+	
 
 Red Teaming:
 DISCLAIMER: Awareness for training purposes only.
-Qualifacation:
-Video Series:
-Documents: 
-Community: 
-Tools/Software:
+Qualification: CRTO, OSCP, eJPT, PNPT
+Video_series:
+	TCM PNPT Courese - https://www.youtube.com/playlist?list=PLBf0hzazHTGN1gJZpFPlGkLykbkU-J2bM
+	Hack the Box Walkthroguhts - https://www.youtube.com/@IppSec
+	John Hammond Offical Series - https://www.youtube.com/@JohnHammond010
+	TryHackMe Red Teaming pathway - https://tryhackme.com/path/outline/redteam
+Documents:
+	Redteam Field Manual - https://github.com/mantvydasb/Red-Team-Tactics-and-Techniques
+	Payload all the things - https://github.com/swisskyrepo/PayloadsAllTheThings
+	OSCP Cheatsheet - https://github.com/tpn/pdfs/blob/master/OSCP%20Cheat%20Sheet.pdf
+	REDTEAM Cheatsheet - https://github.com/mantvydasb/Red-Team-Tactics-and-Techniques/blob/master/README.md
+Community:
+	TryHackMe Discord - https://discord.gg/tryhackme
+	HackTheBox Discord - https://discord.gg/hackthebox
+	Redteamsec Discord - https://discord.gg/redteamsec
+Tools/software:
+	Kali Linux - https://www.kali.org/
+	Parrot OS - https://www.parrotsec.org/
+	metasploit - https://www.metasploit.com/
+	Cobalt Strike - https://www.cobaltstrike.com/trial
+	nmap - https://nmap.org/
+	Burp Suite - https://portswigger.net/burp
+	Bloodhound - https://github.com/BloodHoundAD/BloodHound
+	Impacket - https://github.com/fortra/impacket
 Cyber Core Skills Course: https://www.youtube.com/watch?v=ofc4Muwinwk&list=PL8Gn6RI0ZV6UKmCOD1ZnBBT59kndm6WZs
 
 
 Blue Teaming:
-Qualifacation:
+Qualification: BLT1, CompTIA CySa+
 Video Series:
-Documents: 
-Community: 
+	TryHackMe: Blue Team Fundamentals – https://tryhackme.com/room/blueprimer
+	TCM Security – SOC Analyst Training – https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej0gl0ttfozn
+Documents:
+	CySA+ Exam Objectives – https://www.comptia.org/certifications/cybersecurity-analyst
+	SANS Blue Team Cheat Sheet – https://www.sans.org/posters/blue-team-cheat-sheet/
+	DFIR Playbook – https://www.dfirplaybook.com/
+Community:
+	Blue Team Village Discord – https://discord.gg/blueteamvillage
+	Detection Engineering Discord – https://discord.gg/detect
 Tools/Software:
+	Splunk - https://www.splunk.com/
+	Alienvault - https://www.alienvault.com/
+	Seconinion - https://securityonion.net/
+	Elk Stack - https://www.elastic.co/what-is/elk-stack
+	Wireshark - https://www.wireshark.org/ 
+	Gidra - https://ghidra-sre.org/
 
 
-DEVOPS:
-Qualifacation: 
+
+Infrastucuture as Code (IAC) - DEVOPS and Automation:
+Qualifacation: Red Hat Certified System Engineer
 Video Series:
+	Ansible UDEMY - https://www.udemy.com/course/ansible-masterclass
+	Terraform UDEMY - https://www.udemy.com/course/terraform-beginner-to-advanced-using-amazon-web-services
 Documents: 
+	The DevOps Handbook – https://itrevolution.com/products/the-devops-handbook	
+	Terraform Docs - https://developer.hashicorp.com/terraform/docs
+	Terraform Cheatsheet - https://github.com/antonbabenko/terraform-cheat-sheet
+	Ansible Docs - https://docs.ansible.com/
+	Ansible Cheatsheet - https://cheatography.com/gokul/cheat-sheets/ansible/
 Community: 
+	Terraform Discord - https://discord.gg/hashicorp
+	Ansible Discord - https://discord.gg/ansible  # unofficial but active
 Tools/Software:
-Cyber Core Skills Course: 
+	Terraform - https://www.terraform.io/
+	Ansible - https://www.ansible.com/
+	Docker - https://www.docker.com/
+	Kubernetes - https://kubernetes.io/
+	AWS CLI - https://aws.amazon.com/cli/
+	Zabbix - https://www.zabbix.com/
+	
+	
+
 
 
 GRC:
@@ -163,6 +248,8 @@ Tools/Software:
 	Coding - GitHub - https://github.com/
 	Other Landing Page - https://stackoverflow.com/
 	Cert Tracking - https://www.credly.com/earner/dashboard
+	CTFs - https://ctftime.org/
+	Conferences - BSIDES and London ones
 Cyber Core Skills Course: https://www.youtube.com/watch?v=PijiRMz4JbU&list=PL8Gn6RI0ZV6XCGh9ztaPC71P7oaL4vQcu
 
 
@@ -209,11 +296,12 @@ Tools:
 	Fitness Events - Beleive and Achieve - https://www.fitprorob.biz/
 	
 	
-
+👉 If you found this helpful, share it. If you're starting your journey, reach out. I reply to everyone.
+💬 Contact: https://linktr.ee/ctrlaltt0m
 
 Thank you for reading to the bottom :)
 
 Regards
 
 Tom C @CtrlAltT0m
-https://linktr.ee/ctrlaltt0m
+
