@@ -228,3 +228,75 @@ Here’s a carefully curated list of top resources for learning VMware, broken d
 Would you like recommendations tailored for certification (like VCP or VCAP), home lab setup, or enterprise deployment?
 
 
+
+
+
+
+
+
+
+
+
+Absolutely — here’s the best stuff for learning VMware with links cleanly separated from the descriptions:
+
+⸻
+
+🎥 Video Series
+	1.	Pluralsight – VMware vSphere Data Center Virtualization (VCP-DCV)
+Deep, certification-aligned training from beginner to pro.
+https://www.pluralsight.com/paths/vmware-vsphere-data-center-virtualization
+	2.	LinkedIn Learning – VMware vSphere Essential Training
+Excellent guided course for beginners.
+https://www.linkedin.com/learning/vmware-vsphere-essential-training
+	3.	VMware vSphere Official YouTube Channel
+Demos, deep dives, and product updates straight from VMware.
+https://www.youtube.com/user/vmwaretv
+	4.	David Bombal – VMware Basics & Labs
+Great for labs, networking integration, and visual learners.
+https://www.youtube.com/@davidbombal
+	5.	INE – VMware Learning Paths (Intermediate/Advanced)
+NSX, vSAN, Horizon, and more advanced virtualization topics.
+https://ine.com
+
+⸻
+
+📄 Documents
+	1.	VMware vSphere Official Documentation
+Technical reference for all versions of vSphere.
+https://docs.vmware.com/en/VMware-vSphere/index.html
+	2.	VMware Hands-on Labs Guidebooks
+Free lab exercises with documentation and instructions.
+https://labs.vmware.com/
+	3.	VMware Validated Designs (VVD)
+Best-practice blueprints for scalable VMware environments.
+https://core.vmware.com/vmware-validated-designs
+	4.	Mastering VMware vSphere Book by Scott Lowe
+One of the most respected books in the VMware community.
+https://www.amazon.com/Mastering-VMware-vSphere-6-7/dp/1119512948
+	5.	VMware Learning Zone
+Includes guides, training, and exam prep resources.
+https://www.vmware.com/education-services/learning-zone.html
+
+⸻
+
+🌐 Community
+	1.	VMware Technology Network (VMTN)
+Official VMware community forums and discussions.
+https://communities.vmware.com/
+	2.	Reddit – r/vmware
+Crowd-sourced support, home lab builds, and cert advice.
+https://www.reddit.com/r/vmware/
+	3.	VMUG (VMware User Group)
+Global and local events, training discounts, and labs.
+https://www.vmug.com
+	4.	VMware Discord Community
+Active discussions with pros and learners.
+https://discord.com/invite/vmug
+	5.	Twitter/X VMware Tags
+Follow hashtags like #vSphere, #VMware, #vExpert for live community news.
+https://x.com/hashtag/vSphere
+
+⸻
+
+Let me know if you want recommendations for lab setup, VCP cert prep, or SRE/DevOps with VMware next.
+
