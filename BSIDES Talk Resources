@@ -2,17 +2,18 @@ BSIDES Basingstoke Talk 2025 - Breaking In, Giving Back: My Cyber Security Journ
 By Tom C aka CtrlAltT0m
 https://linktr.ee/ctrlaltt0m
 
-Date: Fri 25 Jul 25
-Time: 1325 - 13
-Leignth: 25 mins
-Location: BSIDES Basingstoke
+Event Details:
+	Date: Fri 25 Jul 25
+	Time: 1325 - 13
+	Leignth: 25 mins
+	Location: BSIDES Basingstoke
 
 
 Resourses for Skills Development:
 
 Top Level Links:
-Cyber Core Skills Course: https://www.youtube.com/watch?v=m7YyZsV1-FY&list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
-Certifications map: https://pauljerimy.com/security-certification-roadmap/
+	Cyber Core Skills Course: https://www.youtube.com/watch?v=m7YyZsV1-FY&list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
+	Certifications map: https://pauljerimy.com/security-certification-roadmap/
 
 Networking:
 Qualifacation: CCNA / CompTIA N+
@@ -36,6 +37,7 @@ Documents: Mastering VMware vSphere Book by Scott Lowe - https://www.amazon.com/
 Community: VMWare Discord - https://discord.com/invite/vmug
 Tools/Software: 
 	VMWare Workstation Pro - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+	VMWare Esxi Server - 
 	WirtualBox - https://www.virtualbox.org/wiki/Downloads
 	ProxMox - https://www.proxmox.com/en/downloads
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
@@ -43,6 +45,9 @@ Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn
 Cloud:
 Qualifacation: Azure Foundermentals, AWS Cloud Paractitoner, Google Cloud Associate
 Courses: Azure via ESI if your company has access - https://esi.microsoft.com/
+Video Series: 
+	Fundermaneals - Adndrew Brown - https://www.youtube.com/watch?v=5abffC-K40c
+	Administrator - John Savill - https://www.youtube.com/watch?v=0Knf9nub4-k&t=4385s
 Documents: 
 	Azure - https://learn.microsoft.com/en-us/azure/?product=popular
 	AWS - https://aws.amazon.com/documentation-overview/
@@ -54,11 +59,16 @@ Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn
 
 
 Windows Domain, CMD and Powershell:
-Qualifacation:
-Video Series:
-Documents: 
-Community: 
-Tools/Software:
+Qualifacation: Microsoft Azure Administrator (AZ-107)
+Course: Azure via ESI if your company has access - https://esi.microsoft.com/
+Video Series: 
+	Windows Cobuman - https://www.youtube.com/watch?v=sndVKp6o_7M&pp=ygUPd2luZG93cyBkb21haW4g0gcJCccJAYcqIYzv
+	Powershell - Chris Titus - https://www.youtube.com/watch?v=ZOoCaWyifmI
+Documents: https://learn.microsoft.com/en-gb/
+Community: Micorosoft DISCORD - https://discord.com/invite/microsoft-certification-study-group-676990910176821270
+Tools/Software:	
+	Micorosoft Client ISOs - https://www.microsoft.com/en-gb/software-download/
+	Micorosoft Server ISO - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 Cyber Core Skills Course: https://www.youtube.com/watch?v=obURjd9nPo8&list=PL8Gn6RI0ZV6UGwpQMSt_xxlpz2hI8drwS
 
 
