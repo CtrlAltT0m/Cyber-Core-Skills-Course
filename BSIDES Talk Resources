@@ -1,12 +1,18 @@
 BSIDES Basingstoke Talk 2025 - Breaking In, Giving Back: My Cyber Security Journey
 By Tom C aka CtrlAltT0m
+https://linktr.ee/ctrlaltt0m
 
 Date: Fri 25 Jul 25
+Time: 1325 - 13
 Leignth: 25 mins
 Location: BSIDES Basingstoke
 
 
 Resourses for Skills Development:
+
+Top Level Links:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=m7YyZsV1-FY&list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
+Certifications map: https://pauljerimy.com/security-certification-roadmap/
 
 Networking:
 Qualifacation: CCNA / CompTIA N+
@@ -35,15 +41,19 @@ Tools/Software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
 
 Cloud:
-Qualifacation: 
-Video Series:
+Qualifacation: Azure Foundermentals, AWS Cloud Paractitoner, Google Cloud Associate
+Courses: Azure via ESI if your company has access - https://esi.microsoft.com/
 Documents: 
-Community: 
+	Azure - https://learn.microsoft.com/en-us/azure/?product=popular
+	AWS - https://aws.amazon.com/documentation-overview/
+Community: Azure Discord - https://azurediscord.com
 Tools/Software:
+	Azure Free Tier - https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/create-free-services 
+	AWS Free Tier - https://aws.amazon.com › Account › Sign-Up
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
 
 
-Windows Domain:
+Windows Domain, CMD and Powershell:
 Qualifacation:
 Video Series:
 Documents: 
@@ -52,7 +62,7 @@ Tools/Software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=obURjd9nPo8&list=PL8Gn6RI0ZV6UGwpQMSt_xxlpz2hI8drwS
 
 
-Linux:
+Linux, CLI and Open Source Software:
 Qualifacation:
 Video Series:
 Documents: 
@@ -98,7 +108,7 @@ Tools/Software:
 
 
 DEVOPS:
-Qualifacation:
+Qualifacation: 
 Video Series:
 Documents: 
 Community: 
@@ -107,7 +117,7 @@ Cyber Core Skills Course:
 
 
 GRC:
-Qualifacation: CISSP, CISM and CISA
+Qualifacation: CISSP, CISM, CISA, ISO 270001 Auditor, NIST Pracitioner
 Course: FireBrand (Gold Stadnard) - https://firebrand.training/uk/courses/isc2/cissp-certification
 Video Series: https://www.youtube.com/@destcert
 Documents: 
