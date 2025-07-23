@@ -1,8 +1,4 @@
-BSIDES Basingstoke Talk 2025 - Breaking In, Giving Back: My Cyber Security Journey
-By Tom C aka CtrlAltT0m
-https://linktr.ee/ctrlaltt0m
 
-Event Details:
 🎤 BSides Basingstoke 2025 – "Breaking In, Giving Back: My Cyber Security Journey"
 🗣️ By: Tom C aka CtrlAltT0m – https://linktr.ee/ctrlaltt0m  
 📅 Date: Friday, 25 July 2025  
@@ -11,44 +7,45 @@ Event Details:
 ⏱️ Duration: 25 minutes  
 
 
-Resourses for Skills Development:
+Resources for Skills Development:
 
 Top Level Links:
 	Cyber Core Skills Course: https://www.youtube.com/watch?v=m7YyZsV1-FY&list=PL8Gn6RI0ZV6WLJvhoeGGNGSVf-7ConER_
 	Certifications map: https://pauljerimy.com/security-certification-roadmap/
 
-Networking:
-Qualifacation: CCNA / CompTIA N+
+############ Networking:############ 
+Qualification: CCNA / CompTIA N+
 Video Series: CBT Nuggets CCNA with Keith Barker - https://learn.adept.at/cbtnuggets/2024-ccna-v11-200-301
-Documents: CCNA Offical Cert guide - https://www.amazon.co.uk/CCNA-200-301-Official-Cert-Guide/dp/0135792738
+Documents: CCNA Official Cert guide - https://www.amazon.co.uk/CCNA-200-301-Official-Cert-Guide/dp/0135792738
 Community: CISCO Study Group DISCORD - https://discord.gg/WbvXFxSW
 Tools:
 	Packet Tracer - https://www.packettracernetwork.com/download/download-packet-tracer.html
 	EVE-NG - https://www.eve-ng.net/index.php/download/
 	VYOS ISO Download - https://vyos.net/get/
-	PFsence Downalod - https://www.pfsense.org/download/
+	PFsence Download - https://www.pfsense.org/download/
 Cyber Core Skills Course: https://www.youtube.com/watch?v=os892fRhDsU&list=PL8Gn6RI0ZV6XhCHF9dJyn-fYsumbUeu6h
 
 
-Virtualisation:
-Qualifacation: VMWare Certified Professional (VCP)
+############ Virtualisation:############ 
+Qualification: VMWare Certified Professional (VCP)
 Video Series:
-	Begginer - David Bombal – VMware Basics & Labs - https://www.youtube.com/@davidbombal
+	Beginner - David Bombal – VMware Basics & Labs - https://www.youtube.com/@davidbombal
 	Advanced - INE – VMware Learning Paths NSX, vSAN, Horizon, and more advanced virtualization topics  - https://ine.com
 Documents: Mastering VMware vSphere Book by Scott Lowe - https://www.amazon.com/Mastering-VMware-vSphere-6-7/dp/1119512948
 Community: VMWare Discord - https://discord.com/invite/vmug
 Tools/Software: 
 	VMWare Workstation Pro - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
 	VMWare Esxi Server - 
-	WirtualBox - https://www.virtualbox.org/wiki/Downloads
+	VirtualBox - https://www.virtualbox.org/wiki/Downloads
 	ProxMox - https://www.proxmox.com/en/downloads
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
 
-Cloud:
-Qualifacation: Azure Foundermentals, AWS Cloud Paractitoner, Google Cloud Associate
+
+############ Cloud:############ 
+Qualification: Azure Fundamentals, AWS Cloud Practitioner, Google Cloud Associate
 Courses: Azure via ESI if your company has access - https://esi.microsoft.com/
 Video Series: 
-	Fundermaneals - Adndrew Brown - https://www.youtube.com/watch?v=5abffC-K40c
+	Fundamentals - Andrew Brown - https://www.youtube.com/watch?v=5abffC-K40c
 	Administrator - John Savill - https://www.youtube.com/watch?v=0Knf9nub4-k&t=4385s
 Documents: 
 	Azure - https://learn.microsoft.com/en-us/azure/?product=popular
@@ -60,22 +57,22 @@ Tools/Software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
 
 
-Windows Domain, CMD and Powershell:
-Qualifacation: Microsoft Azure Administrator (AZ-107)
+############ Windows Domain, CMD and PowerShell:############ 
+Qualification: Microsoft Azure Administrator (AZ-107)
 Course: Azure via ESI if your company has access - https://esi.microsoft.com/
 Video Series: 
 	Windows Cobuman - https://www.youtube.com/watch?v=sndVKp6o_7M&pp=ygUPd2luZG93cyBkb21haW4g0gcJCccJAYcqIYzv
-	Powershell - Chris Titus - https://www.youtube.com/watch?v=ZOoCaWyifmI
+	PowerShell - Chris Titus - https://www.youtube.com/watch?v=ZOoCaWyifmI
 Documents: https://learn.microsoft.com/en-gb/
-Community: Micorosoft DISCORD - https://discord.com/invite/microsoft-certification-study-group-676990910176821270
+Community: Microsoft DISCORD - https://discord.com/invite/microsoft-certification-study-group-676990910176821270
 Tools/Software:	
-	Micorosoft Client ISOs - https://www.microsoft.com/en-gb/software-download/
-	Micorosoft Server ISOs - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+	Microsoft Client ISOs - https://www.microsoft.com/en-gb/software-download/
+	Microsoft Server ISOs - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 	UnderTheWire PowerShell Wargames - https://underthewire.tech/ 
 Cyber Core Skills Course: https://www.youtube.com/watch?v=obURjd9nPo8&list=PL8Gn6RI0ZV6UGwpQMSt_xxlpz2hI8drwS
 
 
-Linux, CLI and Open Source Software:
+############ Linux, CLI and Open Source Software:############ 
 Qualification: Red Hat Certified System Administrator (RHCSA)
 Video Series:
     The Linux Foundation Essentials - https://www.youtube.com/playlist?list=PLbH21TCER0vHqHO9G2gMSE0Cun_kiN2Yv
@@ -99,7 +96,7 @@ Tools/Software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=Jjm0FtaIpSU&list=PL8Gn6RI0ZV6UCbWvkdB-0rpD2iu9XqLfG
 
 
-BASH Scrpting:
+############ BASH Scripting:############ 
 Qualification: Linux Foundation Certified System Administrator (LFCS), CompTIA Linux+
 Video Series:
 	    FreeCodeCamp Bash Course - https://www.youtube.com/watch?v=oxuRxtrO2Ag
@@ -120,11 +117,11 @@ Tools/Software:
 
 
 
-Python:
+############ Python:############ 
 Video Series: Udemy Bootcamp - https://www.udemy.com/course/complete-python-bootcamp/
 Documents: 
-	Online Resourse - Stoack OVerflow Python - https://stackoverflow.com/questions/tagged/python
-	Book - Python Compelte Guide - https://www.awesomebooks.com/book/9781785464409/python-the-complete-manual-second-edition/used 
+	Online Resources - Stoack OVerflow Python - https://stackoverflow.com/questions/tagged/python
+	Book - Python Complete Guide - https://www.awesomebooks.com/book/9781785464409/python-the-complete-manual-second-edition/used 
 Community: Python Discord - https://discord.com/invite/python 
 Tools/Software: 
 	Install CMD on Linux: sudo apt install python3.10 python3.10-venv python3.10-dev
@@ -134,13 +131,13 @@ Tools/Software:
 	
 	
 
-Red Teaming:
+############ Red Teaming:############ 
 DISCLAIMER: Awareness for training purposes only.
 Qualification: CRTO, OSCP, eJPT, PNPT
-Video_series:
-	TCM PNPT Courese - https://www.youtube.com/playlist?list=PLBf0hzazHTGN1gJZpFPlGkLykbkU-J2bM
+Video Series:
+	TCM PNPT Course - https://www.youtube.com/playlist?list=PLBf0hzazHTGN1gJZpFPlGkLykbkU-J2bM
 	Hack the Box Walkthroguhts - https://www.youtube.com/@IppSec
-	John Hammond Offical Series - https://www.youtube.com/@JohnHammond010
+	John Hammond Official Series - https://www.youtube.com/@JohnHammond010
 	TryHackMe Red Teaming pathway - https://tryhackme.com/path/outline/redteam
 Documents:
 	Redteam Field Manual - https://github.com/mantvydasb/Red-Team-Tactics-and-Techniques
@@ -163,7 +160,7 @@ Tools/software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=ofc4Muwinwk&list=PL8Gn6RI0ZV6UKmCOD1ZnBBT59kndm6WZs
 
 
-Blue Teaming:
+############ Blue Teaming:############ 
 Qualification: BLT1, CompTIA CySa+
 Video Series:
 	TryHackMe: Blue Team Fundamentals – https://tryhackme.com/room/blueprimer
@@ -178,15 +175,15 @@ Community:
 Tools/Software:
 	Splunk - https://www.splunk.com/
 	Alienvault - https://www.alienvault.com/
-	Seconinion - https://securityonion.net/
+	SecOninion - https://securityonion.net/
 	Elk Stack - https://www.elastic.co/what-is/elk-stack
 	Wireshark - https://www.wireshark.org/ 
 	Gidra - https://ghidra-sre.org/
 
 
 
-Infrastucuture as Code (IAC) - DEVOPS and Automation:
-Qualifacation: Red Hat Certified System Engineer
+############ Infrastructure as Code (IAC) - DEVOPS and Automation:############ 
+Qualification: Red Hat Certified System Engineer
 Video Series:
 	Ansible UDEMY - https://www.udemy.com/course/ansible-masterclass
 	Terraform UDEMY - https://www.udemy.com/course/terraform-beginner-to-advanced-using-amazon-web-services
@@ -206,24 +203,20 @@ Tools/Software:
 	Kubernetes - https://kubernetes.io/
 	AWS CLI - https://aws.amazon.com/cli/
 	Zabbix - https://www.zabbix.com/
-	
-	
 
 
-
-GRC:
-Qualifacation: CISSP, CISM, CISA, ISO 270001 Auditor, NIST Pracitioner
-Course: FireBrand (Gold Stadnard) - https://firebrand.training/uk/courses/isc2/cissp-certification
+############ GRC:############ 
+Qualification: CISSP, CISM, CISA, ISO 270001 Auditor, NIST Practitioner
+Course: FireBrand (Gold Standard) - https://firebrand.training/uk/courses/isc2/cissp-certification
 Video Series: https://www.youtube.com/@destcert
 Documents: 
 	ISC2 CBK - https://www.amazon.co.uk/Official-Isc2-Guide-Cissp-Cbk/dp/1119423341
-	Sundlower Doc - https://github.com/connectans/awesome-CISSP-CCSP/blob/main/asset/The%20sunflower%20CISSP%20Summary%20Version%202.0.pdf
+	Sunflower Doc - https://github.com/connectans/awesome-CISSP-CCSP/blob/main/asset/The%20sunflower%20CISSP%20Summary%20Version%202.0.pdf
 Community: Certification Station - https://discords.com/servers/713391241856942090/join
 
 
-
-AI:
-Qualifacation:Google TensorFlow Developer Cert
+############ AI:############ 
+Qualifacation: Google TensorFlow Developer Cert
 Video Series:
 	Intro: https://www.youtube.com/watch?v=Wjrdr0NU4Sk&pp=ygUQTmV0d29yayBjaHVjayBBSQ%3D%3D
 	Advanced: MIT 6.S191 – Introduction to Deep Learning - http://introtodeeplearning.com/
@@ -237,11 +230,11 @@ Tools/Software:
 	
 
 
-Soft Skills:
-Qualifacation: Neuro Longisutics Programming (NLP) - https://nlpuktraining.com/
+############ Soft Skills:############ 
+Qualification: Neuro Linguistics Programming (NLP) - https://nlpuktraining.com/
 Community: 
 	Cyber Mentor Dojo - https://app.cybermentordojo.com/ DISCORD - https://discord.com/invite/tyMfSppVvg
-	Cyber Job Humters - https://discord.gg/tjVaFdgu
+	Cyber Job Hunters - https://discord.gg/tjVaFdgu
 Tools/Software: 
 	CV Builder and Landing Page - https://flowcv.com/
 	Blogging - Medium - https://medium.com/
@@ -253,21 +246,21 @@ Tools/Software:
 Cyber Core Skills Course: https://www.youtube.com/watch?v=PijiRMz4JbU&list=PL8Gn6RI0ZV6XCGh9ztaPC71P7oaL4vQcu
 
 
-Learning and Development:
+############ Learning and Development:############ 
 Community: British Dyslexia Association - https://www.bdadyslexia.org.uk/
 Tools/Software:
-	Natral Reader (Text to Speach) - https://www.natralreaders.com
-	Iphone Speach Funtion (Text to Speach)
-	MS Edge (Text to Speach by default)
-	MS Office (Text to Speach)
-	Google Docs (Speach to Text) - https://docs.google.com
+	Natural Reader (Text to Speech) - https://www.natralreaders.com
+	iPhone Speech Function (Text to Speech)
+	MS Edge (Text to Speech by default)
+	MS Office (Text to Speech)
+	Google Docs (Speech to Text) - https://docs.google.com
 	Read Aloud Google Chrome Extension - https://microsoftedge.microsoft.com/addons/detail/read-aloud-a-text-to-spe/pnfonnnmfjnpfgagnklfaccicnnjcdkm?refid=bingshortanswersdownload
 Cyber Core Skills Course:    
 
 
-Mental Health - Recovery (Civilian):
-Qualifacation: MH First Aider
-Course: Cognative Behavoural Theorpy - https://www.healthcareers.nhs.uk/node/4141/cbt-therapist
+############ Mental Health - Recovery (Civilian):############ 
+Qualification: MH First Aider
+Course: Cognitive Behavioural Theory - https://www.healthcareers.nhs.uk/node/4141/cbt-therapist
 Community: 
 	Andy Man Club - https://andysmanclub.co.uk/
 	Solent Minds - https://www.solentmind.org.uk/
@@ -278,7 +271,7 @@ Tools/Software:
 CtrlAltPodcast: https://www.youtube.com/watch?v=_HT23NBMm0k&list=PL8Gn6RI0ZV6Vr5YHz1kabuhlkzSrnZ3Xc&index=1&pp=iAQB
 
 
-Mental Health - Recovery (Military/Vets):
+############ Mental Health - Recovery (Military/Vets):############ 
 Course: Warrior Programme - https://www.warriorprogramme.org.uk/
 Tools/Software:
 	Headspace - FREE - https://www.headspace.com/
@@ -287,13 +280,13 @@ Tools/Software:
 CtrlAltPodcast: https://www.youtube.com/watch?v=_HT23NBMm0k&list=PL8Gn6RI0ZV6Vr5YHz1kabuhlkzSrnZ3Xc&index=1&pp=iAQB
 
 
-Mental Health - Building Resuliance:
+############ Mental Health - Building Resilience:############ 
 Community:
 	Man Mind - https://manmindtribe.com/
 Tools:
 	Cold Water Dips - https://www.southseabeachcafe.co.uk/sauna-hire/
 	Park Run - https://www.parkrun.org.uk/
-	Fitness Events - Beleive and Achieve - https://www.fitprorob.biz/
+	Fitness Events - Believe and Achieve - https://www.fitprorob.biz/
 	
 	
 👉 If you found this helpful, share it. If you're starting your journey, reach out. I reply to everyone.
@@ -304,4 +297,3 @@ Thank you for reading to the bottom :)
 Regards
 
 Tom C @CtrlAltT0m
-
