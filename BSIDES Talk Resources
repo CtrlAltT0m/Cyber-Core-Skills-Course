@@ -108,24 +108,32 @@ Cyber Core Skills Course:
 
 GRC:
 Qualifacation: CISSP, CISM and CISA
-Video Series:
+Course: FireBrand (Gold Stadnard) - https://firebrand.training/uk/courses/isc2/cissp-certification
+Video Series: https://www.youtube.com/@destcert
 Documents: 
-Community: 
-Tools/Software:
+	ISC2 CBK - https://www.amazon.co.uk/Official-Isc2-Guide-Cissp-Cbk/dp/1119423341
+	Sundlower Doc - https://github.com/connectans/awesome-CISSP-CCSP/blob/main/asset/The%20sunflower%20CISSP%20Summary%20Version%202.0.pdf
+Community: Certification Station - https://discords.com/servers/713391241856942090/join
+
 
 
 AI:
-Qualifacation:
+Qualifacation:Google TensorFlow Developer Cert
 Video Series:
 	Intro: https://www.youtube.com/watch?v=Wjrdr0NU4Sk&pp=ygUQTmV0d29yayBjaHVjayBBSQ%3D%3D
-	
-Documents: 
+	Advanced: MIT 6.S191 – Introduction to Deep Learning - http://introtodeeplearning.com/
+Documents: OpenAI Technical Reports - https://openai.com/research
 Community: 
+	Huggingface DISCORD - https://discord.gg/huggingface
 Tools/Software:
+	Panda and NumPy - data
+	Hugging Face Transformers - LLM
+	ChormaDB - Vector Search
+	
 
 
 Soft Skills:
-Qualifacation: NLP
+Qualifacation: Neuro Longisutics Programming (NLP) - https://nlpuktraining.com/
 Community: 
 	Cyber Mentor Dojo - https://app.cybermentordojo.com/ DISCORD - https://discord.com/invite/tyMfSppVvg
 	Cyber Job Humters - https://discord.gg/tjVaFdgu
@@ -151,9 +159,8 @@ Cyber Core Skills Course:
 
 
 Mental Health - Recovery (Civilian):
-Qualifacation:
-Video Series:
-Documents: 
+Qualifacation: MH First Aider
+Course: Cognative Behavoural Theorpy - https://www.healthcareers.nhs.uk/node/4141/cbt-therapist
 Community: 
 	Andy Man Club - https://andysmanclub.co.uk/
 	Solent Minds - https://www.solentmind.org.uk/
@@ -190,70 +197,3 @@ Regards
 
 Tom C @CtrlAltT0m
 https://linktr.ee/ctrlaltt0m
-
-
-
-
-Certainly! Here’s a structured set of top resources for learning AI, broken down into Video Series, Documents, and Community, with clean links provided outside the text:
-
-⸻
-
-🎥 Video Series
-	1.	DeepLearning.AI – Andrew Ng’s AI Specialization (Coursera)
-Perfect foundational course on AI, ML, and DL from one of the top names in the field.
-https://www.coursera.org/specializations/ai-for-everyone
-	2.	MIT 6.S191 – Introduction to Deep Learning
-Advanced yet accessible lectures on DL, neural nets, and real-world AI.
-http://introtodeeplearning.com/
-	3.	fast.ai – Practical Deep Learning for Coders
-Hands-on, Python-based learning using PyTorch.
-https://course.fast.ai/
-	4.	Google – Machine Learning Crash Course
-Free, beginner-friendly AI/ML course with Colab-based exercises.
-https://developers.google.com/machine-learning/crash-course
-	5.	YouTube – Two Minute Papers
-Great for staying up to date with bleeding-edge AI papers, explained simply.
-https://www.youtube.com/@TwoMinutePapers
-
-⸻
-
-📄 Documents
-	1.	Stanford CS229 Lecture Notes (Andrew Ng)
-Graduate-level machine learning notes — thorough and legendary.
-https://cs229.stanford.edu/syllabus-autumn2018.html
-	2.	The Deep Learning Book by Ian Goodfellow
-The definitive academic text on deep learning theory and math.
-https://www.deeplearningbook.org/
-	3.	Google AI Blog
-Official insights, research, and updates from Google’s AI teams.
-https://ai.googleblog.com/
-	4.	OpenAI Technical Reports and Blog
-Insight into GPT models, safety research, and more.
-https://openai.com/research
-	5.	Hugging Face – NLP Course and Docs
-Learn to build LLMs, transformers, and real-world AI apps.
-https://huggingface.co/learn
-
-⸻
-
-🌐 Community
-	1.	r/MachineLearning (Reddit)
-Daily updates, papers, questions, and discussions from pros and researchers.
-https://www.reddit.com/r/MachineLearning/
-	2.	AI Alignment Forum
-Focuses on the safety, philosophy, and future of powerful AI.
-https://www.alignmentforum.org/
-	3.	Hugging Face Discord Community
-Highly active community for transformers, NLP, and open-source LLMs.
-https://discord.gg/huggingface
-	4.	Kaggle Community & Forums
-Data science + AI competitions, notebooks, and Q&A.
-https://www.kaggle.com/discussion
-	5.	Towards Data Science (Medium)
-Blog-style content written by practitioners and researchers.
-https://towardsdatascience.com/
-
-⸻
-
-Would you like a learning path tailored to your level (beginner/intermediate/advanced) or focused on LLMs, computer vision, or AI in cybersecurity?
-
