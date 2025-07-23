@@ -11,20 +11,34 @@ Resourses for Skills Development:
 Networking:
 Qualifacation: CCNA / CompTIA N+
 Video Series: CBT Nuggets CCNA with Keith Barker - https://learn.adept.at/cbtnuggets/2024-ccna-v11-200-301
-Documents: 
-Community: 
+Documents: CCNA Offical Cert guide - https://www.amazon.co.uk/CCNA-200-301-Official-Cert-Guide/dp/0135792738
+Community: CISCO Study Group DISCORD - https://discord.gg/WbvXFxSW
 Tools:
-  Packet Tracer
-  EVE-NG
-  VYOS Download
+	Packet Tracer - https://www.packettracernetwork.com/download/download-packet-tracer.html
+	EVE-NG - https://www.eve-ng.net/index.php/download/
+	VYOS ISO Download - https://vyos.net/get/
+	PFsence Downalod - https://www.pfsense.org/download/
+Cyber Core Skills Course: https://www.youtube.com/watch?v=os892fRhDsU&list=PL8Gn6RI0ZV6XhCHF9dJyn-fYsumbUeu6h
 
 
 Virtualisation:
-Qualifacation:
+Qualifacation: VMWare Certified Professional (VCP)
+Video Series: 
+Documents: 
+Community: 
+Tools/Software:
+	VMWare Workstation Pro - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+	WirtualBox - https://www.virtualbox.org/wiki/Downloads
+	ProxMox - https://www.proxmox.com/en/downloads
+Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
+
+Cloud:
+Qualifacation: 
 Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
 
 
 Windows Domain:
@@ -33,6 +47,7 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=obURjd9nPo8&list=PL8Gn6RI0ZV6UGwpQMSt_xxlpz2hI8drwS
 
 
 Linux:
@@ -41,6 +56,7 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=Jjm0FtaIpSU&list=PL8Gn6RI0ZV6UCbWvkdB-0rpD2iu9XqLfG
 
 
 BASH Scrpting:
@@ -49,6 +65,8 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: 
+
 
 Python:
 Qualifacation:
@@ -56,13 +74,17 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: 
+
 
 Red Teaming:
+DISCLAIMER: Awareness for training purposes only.
 Qualifacation:
 Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=ofc4Muwinwk&list=PL8Gn6RI0ZV6UKmCOD1ZnBBT59kndm6WZs
 
 
 Blue Teaming:
@@ -79,6 +101,7 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: 
 
 
 GRC:
@@ -92,6 +115,8 @@ Tools/Software:
 AI:
 Qualifacation:
 Video Series:
+	Intro:
+	
 Documents: 
 Community: 
 Tools/Software:
@@ -103,6 +128,7 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: https://www.youtube.com/watch?v=PijiRMz4JbU&list=PL8Gn6RI0ZV6XCGh9ztaPC71P7oaL4vQcu
 
 
 Learning and Development:
@@ -111,13 +137,12 @@ Video Series:
 Documents: 
 Community: British Dyslexia Association - 
 Tools/Software:
-  Natral Reader (Text to Speach)
-  MS Edge (Text to Speach by default)
-  MS Office (Text to Speach)
-  Google Docs (Speach to Text)
-  Read Aloud Google Chrome Plug-In
-
-  
+	Natral Reader (Text to Speach)
+	MS Edge (Text to Speach by default)
+	MS Office (Text to Speach)
+	Google Docs (Speach to Text)
+	Read Aloud Google Chrome Plug-In
+Cyber Core Skills Course:   
 
 
 Mental Health:
@@ -126,6 +151,7 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+CtrlAltPodcast: https://www.youtube.com/watch?v=_HT23NBMm0k&list=PL8Gn6RI0ZV6Vr5YHz1kabuhlkzSrnZ3Xc&index=1&pp=iAQB
 
 
 Building Resuliance:
@@ -134,3 +160,4 @@ Video Series:
 Documents: 
 Community: 
 Tools/Software:
+Cyber Core Skills Course: 
