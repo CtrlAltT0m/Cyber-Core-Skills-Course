@@ -22,7 +22,7 @@ Tools:
 	Packet Tracer - https://www.packettracernetwork.com/download/download-packet-tracer.html
 	EVE-NG - https://www.eve-ng.net/index.php/download/
 	VYOS ISO Download - https://vyos.net/get/
-	pfSence Download - https://www.pfsense.org/download/
+	pfSense Download - https://www.pfsense.org/download/
 Cyber Core Skills Course: https://www.youtube.com/watch?v=os892fRhDsU&list=PL8Gn6RI0ZV6XhCHF9dJyn-fYsumbUeu6h
 
 
@@ -35,7 +35,7 @@ Documents: Mastering VMware vSphere Book by Scott Lowe - https://www.amazon.com/
 Community: VMWare Discord - https://discord.com/invite/vmug
 Tools/Software: 
 	VMWare Workstation Pro - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
-	VMWare Esxi Server - https://archive.org/details/vmware-esxi-7
+	VMWare ESXi Server - https://archive.org/details/vmware-esxi-7
 	VirtualBox - https://www.virtualbox.org/wiki/Downloads
 	ProxMox - https://www.proxmox.com/en/downloads
 Cyber Core Skills Course: https://www.youtube.com/watch?v=1kj88i68_70&list=PL8Gn6RI0ZV6WFIoLyBu_opczoOMa_aS38
@@ -125,7 +125,7 @@ Documents:
 Community: Python Discord - https://discord.com/invite/python 
 Tools/Software: 
 	Install CMD on Linux: sudo apt install python3.10 python3.10-venv python3.10-dev
-	IDE - VS Code - https://code.visualstudio.com/ - note lots of add ons with this software
+	IDE - VS Code - https://code.visualstudio.com/ - note lots of add-ons with this software
 	Notepad ++ - https://notepad-plus-plus.org/
 	Jupyter Notebook - https://jupyter.org/
 	
@@ -136,7 +136,7 @@ DISCLAIMER: Awareness for training purposes only.
 Qualification: CRTO, OSCP, eJPT, PNPT
 Video Series:
 	TCM PNPT Course - https://www.youtube.com/playlist?list=PLBf0hzazHTGN1gJZpFPlGkLykbkU-J2bM
-	Hack the Box Walkthroughts - https://www.youtube.com/@IppSec
+	Hack the Box Walkthroughs - https://www.youtube.com/@IppSec
 	John Hammond Official Series - https://www.youtube.com/@JohnHammond010
 	TryHackMe Red Teaming pathway - https://tryhackme.com/path/outline/redteam
 Documents:
@@ -151,7 +151,7 @@ Community:
 Tools/software:
 	Kali Linux - https://www.kali.org/
 	Parrot OS - https://www.parrotsec.org/
-	metasploit - https://www.metasploit.com/
+	Metasploit - https://www.metasploit.com/
 	Cobalt Strike - https://www.cobaltstrike.com/trial
 	nmap - https://nmap.org/
 	Burp Suite - https://portswigger.net/burp
@@ -237,12 +237,12 @@ Community:
 	Cyber Job Hunters - https://discord.gg/tjVaFdgu
 Tools/Software: 
 	CV Builder and Landing Page - https://flowcv.com/
-	Public Profile - linkedin with custom URL - https://www.linkedin.com/
+	Public Profile - LinkedIn with custom URL - https://www.linkedin.com/
 	Blogging - Medium - https://medium.com/
 	Have a technical project/Coding - GitHub - https://github.com/
 	Cert Tracking - https://www.credly.com/earner/dashboard
 	CTFs - https://ctftime.org/
-	Conferences - BSIDES and London ones
+	Conferences - BSIDES and the London ones
 	PODCASTS - Darknet Diaries - https://darknetdiaries.com/ and RiskyBusiness - https://risky.biz/
 	Publications - The Hacker News - https://thehackernews.com/
 	Other Landing Page - https://stackoverflow.com/
@@ -270,7 +270,7 @@ Community:
 Tools/Software:
 	Social Media Break
 	Headspace - https://www.headspace.com/
-	Togetherall - Student specific community- https://togetherall.com/en-gb/
+	Togetherall - Student-specific community- https://togetherall.com/en-gb/
 	Military/Vets - Combat Stress - https://combatstress.org.uk/
 CtrlAltPodcast: https://www.youtube.com/watch?v=_HT23NBMm0k&list=PL8Gn6RI0ZV6Vr5YHz1kabuhlkzSrnZ3Xc&index=1&pp=iAQB
 
@@ -295,6 +295,7 @@ Tools:
 
 
 ############ Who to connect with/follow on social media:############ 
+
 Katie Moussouris
 Role: Founder & CEO at Luta Security; Cyber Safety Review Board member
 LinkedIn: linkedin.com/in/kmoussouris
@@ -309,7 +310,8 @@ Caroline Wong
 Role: Chief Strategy Officer at Cobalt
 LinkedIn: linkedin.com/in/carolinewmwong
 X: @CarolineWMWong
-4. Lesley Carhart (hacks4pancakes)
+
+Lesley Carhart (hacks4pancakes)
 Role: Technical Director – Incident Response, Dragos
 LinkedIn: linkedin.com/in/lcarhart
 X: @hacks4pancakes
@@ -344,6 +346,7 @@ Role: Cybersecurity & IT Content Creator, Educator on YouTube
 LinkedIn: linkedin.com/in/networkchuck
 X: @NetworkChuck
 
+Best bits, all these links are free!
 
 👉 If you found this helpful, share it. If you're starting your journey, reach out. I reply to everyone.
 💬 Contact: https://linktr.ee/ctrlaltt0m
@@ -352,4 +355,5 @@ Thank you for reading to the bottom :)
 
 Regards
 
-Tom C @CtrlAltT0m
+Tom C 
+@CtrlAltT0m
