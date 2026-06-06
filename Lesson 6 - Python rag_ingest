@@ -1,0 +1,480 @@
+nano ~/llm-rag/rag_ingest.py
+
+
+import argparse
+import hashlib
+import html
+import os
+import re
+import time
+
+import feedparser
+import ollama
+import requests
+from bs4 import BeautifulSoup
+from qdrant_client import QdrantClient
+from qdrant_client.http.models import Distance, PointStruct, VectorParams
+
+
+COLLECTION = "defence_current"
+SOURCES_FILE = os.path.expanduser("~/llm-rag/sources.txt")
+QDRANT_URL = "http://localhost:6333"
+
+CHAT_MODEL = "llama3"
+EMBED_MODEL = "embeddinggemma"
+
+RETRIEVAL_LIMIT = 4
+MAX_CONTEXT_CHARS_PER_HIT = 1800
+
+DEFAULT_SOURCES = [
+    "https://www.gov.uk/search/news-and-communications",
+    "https://www.gov.uk/government/news?departments%5B%5D=ministry-of-defence",
+    "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=20&ContentType=1&Site=945",
+    "https://www.understandingwar.org/",
+    "https://www.understandingwar.org/iran",
+    "https://www.atlanticcouncil.org/tag/iran/",
+    "https://www.atlanticcouncil.org/tag/israel/",
+    "https://www.atlanticcouncil.org/region/middle-east/",
+    "https://www.csis.org/regions/middle-east/iran",
+    "https://www.idf.il/en/",
+    "https://www.idf.il/en/mini-sites/our-mission-our-values/",
+    "https://www.nato.int/en/news-and-events/articles/news",
+    "https://www.nato.int/en/what-we-do/operations-and-missions/nato-operations-and-missions",
+    "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-nuclear-deterrence-policy-and-forces",
+    "https://www.europarl.europa.eu/news/en",
+    "https://www.brookings.edu/articles/middle-east-a-path-out-of-the-desert/",
+    "https://www.brookings.edu/books/defense-101-understanding-the-military-of-today-and-tomorrow/",
+    "https://www.aspistrategist.org.au/",
+    "https://www.longwarjournal.org/",
+    "https://www.longwarjournal.org/tags/iran",
+    "https://www.nti.org/",
+    "https://basicint.org/",
+    "https://carnegieendowment.org/programs/nuclear-policy",
+    "https://armscontrolcenter.org/",
+]
+
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
+})
+
+
+def embed(text: str):
+    return ollama.embeddings(model=EMBED_MODEL, prompt=text)["embedding"]
+
+
+def clean_text(raw: str) -> str:
+    raw = html.unescape(raw or "")
+    raw = re.sub(r"\s+", " ", raw).strip()
+    return raw[:5000]
+
+
+def chunk_text(text: str, size: int = 700, overlap: int = 80):
+    chunks = []
+    start = 0
+    while start < len(text):
+        chunk = text[start:start + size]
+        if chunk.strip():
+            chunks.append(chunk)
+        start += max(1, size - overlap)
+    return chunks
+
+
+def guess_topic(url: str) -> str:
+    u = url.lower()
+    if "nato" in u:
+        return "nato"
+    if "nuclear" in u or "nti.org" in u or "armscontrol" in u or "basicint" in u:
+        return "nuclear_policy"
+    if "idf" in u or "israel" in u:
+        return "israel"
+    if "iran" in u:
+        return "iran"
+    if "gov.uk" in u or "mod" in u:
+        return "uk_mod"
+    if "defense.gov" in u or "centcom" in u:
+        return "us_mil"
+    if "hormuz" in u:
+        return "strait_of_hormuz"
+    if "europarl" in u or "europa" in u:
+        return "eu_europe"
+    if "russia" in u:
+        return "russia"
+    return "general"
+
+
+def is_rss(url: str) -> bool:
+    u = url.lower()
+    return any(x in u for x in ["rss", "feed", ".xml", "ashx"])
+
+
+def fetch_html(url: str) -> str:
+    r = session.get(url, timeout=35)
+    r.raise_for_status()
+    return r.text
+
+
+def parse_html_page(url: str):
+    docs = []
+    topic = guess_topic(url)
+    try:
+        html_doc = fetch_html(url)
+        soup = BeautifulSoup(html_doc, "lxml")
+        for s in soup(["script", "style", "noscript"]):
+            s.extract()
+
+        title = soup.title.get_text(" ", strip=True) if soup.title else url
+        text = soup.get_text("\n", strip=True)
+        text = re.sub(r"\n{2,}", "\n\n", text)
+        text = text[:70000]
+
+        for i, chunk in enumerate(chunk_text(text)):
+            docs.append({
+                "topic": topic,
+                "url": url,
+                "title": title,
+                "chunk_id": i,
+                "text": chunk,
+            })
+
+        print(f"[+] indexed HTML {url}")
+    except Exception as e:
+        print(f"[!] failed HTML {url}: {e}")
+
+    return docs
+
+
+def parse_feed(url: str):
+    docs = []
+    topic = guess_topic(url)
+    try:
+        feed = feedparser.parse(url)
+        if not feed.entries:
+            raise RuntimeError("no feed entries returned")
+
+        for idx, entry in enumerate(feed.entries[:30]):
+            title = clean_text(getattr(entry, "title", ""))
+            link = getattr(entry, "link", url)
+            summary = clean_text(getattr(entry, "summary", "") or getattr(entry, "description", ""))
+            published = clean_text(getattr(entry, "published", ""))
+            text = f"{title}\n{published}\n{summary}"
+
+            for i, chunk in enumerate(chunk_text(text, size=700, overlap=80)):
+                docs.append({
+                    "topic": topic,
+                    "url": link,
+                    "title": title or link,
+                    "chunk_id": idx * 100 + i,
+                    "text": chunk,
+                })
+
+        print(f"[+] indexed RSS {url}")
+    except Exception as e:
+        print(f"[!] failed RSS {url}: {e}")
+
+    return docs
+
+
+def load_sources():
+    if not os.path.exists(SOURCES_FILE):
+        return []
+
+    sources = []
+    with open(SOURCES_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                sources.append(line)
+
+    return sources
+
+
+def save_sources(sources):
+    os.makedirs(os.path.dirname(SOURCES_FILE), exist_ok=True)
+    with open(SOURCES_FILE, "w", encoding="utf-8") as f:
+        for s in sources:
+            f.write(s + "\n")
+
+
+def seed_sources():
+    save_sources(DEFAULT_SOURCES)
+    print(f"[+] wrote {len(DEFAULT_SOURCES)} default sources to {SOURCES_FILE}")
+
+
+def add_source(url: str):
+    sources = load_sources()
+    if url in sources:
+        print(f"[=] already exists: {url}")
+        return
+    sources.append(url)
+    save_sources(sources)
+    print(f"[+] added: {url}")
+
+
+def list_sources():
+    sources = load_sources()
+    if not sources:
+        print("[!] no sources yet. Run: python3 rag_ingest.py seed")
+        return
+
+    for i, s in enumerate(sources, 1):
+        print(f"{i}. {s}")
+
+
+def ensure_collection(client: QdrantClient):
+    test_vec = embed("test")
+    try:
+        client.get_collection(COLLECTION)
+    except Exception:
+        client.create_collection(
+            collection_name=COLLECTION,
+            vectors_config=VectorParams(size=len(test_vec), distance=Distance.COSINE),
+        )
+
+
+def ingest_sources(urls):
+    if not urls:
+        print("[!] no sources. Run: python3 rag_ingest.py seed")
+        return
+
+    client = QdrantClient(url=QDRANT_URL)
+    ensure_collection(client)
+
+    docs = []
+    for url in urls:
+        if is_rss(url):
+            docs.extend(parse_feed(url))
+        else:
+            docs.extend(parse_html_page(url))
+
+    points = []
+    seen = set()
+
+    for d in docs:
+        text = d["text"].strip()
+        if not text:
+            continue
+
+        sig = hashlib.sha256((d["url"] + "|" + text).encode()).hexdigest()
+        if sig in seen:
+            continue
+        seen.add(sig)
+
+        pid = int(
+            hashlib.sha256(f"{d['url']}|{d['chunk_id']}".encode()).hexdigest()[:16],
+            16
+        ) % (2**63 - 1)
+
+        vec = embed(text)
+        points.append(PointStruct(
+            id=pid,
+            vector=vec,
+            payload={
+                "topic": d["topic"],
+                "url": d["url"],
+                "title": d["title"],
+                "chunk": text,
+            }
+        ))
+
+    if points:
+        client.upsert(collection_name=COLLECTION, points=points)
+        print(f"[+] upserted {len(points)} chunks into Qdrant")
+    else:
+        print("[!] no points collected")
+
+
+def build_prompt(question: str, context: str, mode: str):
+    if mode == "risk":
+        system = """You are a defence intelligence analyst.
+
+Be decisive. Use only the supplied context.
+Output:
+RISK: X/5
+ASSESSMENT: one short paragraph
+DRIVERS:
+- bullet
+- bullet
+- bullet
+
+Scale:
+1 = very unlikely
+2 = unlikely
+3 = plausible / watch closely
+4 = likely
+5 = highly likely / imminent
+
+If evidence is incomplete, still give the best assessment and say confidence is low."""
+    elif mode == "verdict":
+        system = """You are a defence intelligence analyst.
+
+Be decisive. Use only the supplied context.
+Output:
+VERDICT: YES / NO / UNCLEAR
+ASSESSMENT: one short paragraph
+EVIDENCE:
+- bullet
+- bullet
+- bullet
+
+Only use UNCLEAR if there is genuinely no relevant evidence."""
+    elif mode == "brief":
+        system = """You are a defence intelligence analyst.
+
+Use only the supplied context.
+Output:
+BOTTOM LINE:
+SITUATION:
+KEY ACTORS:
+RISKS:
+LIKELY NEXT STEP:
+CONFIDENCE: LOW / MEDIUM / HIGH"""
+    else:
+        system = """You are a defence intelligence analyst.
+
+Use only the supplied context.
+Be clear, direct and concise.
+If evidence is weak, say so, but still provide the best grounded assessment."""
+
+    user = f"""QUESTION:
+{question}
+
+CONTEXT:
+{context}
+"""
+    return system, user
+
+
+def retrieve_hits(question: str):
+    client = QdrantClient(url=QDRANT_URL)
+
+    t0 = time.time()
+    print("[*] creating query embedding...")
+    qvec = embed(question)
+    print(f"[*] embedding done in {time.time() - t0:.2f}s")
+
+    t1 = time.time()
+    print("[*] querying Qdrant...")
+
+    if hasattr(client, "query_points"):
+        res = client.query_points(
+            collection_name=COLLECTION,
+            query=qvec,
+            limit=RETRIEVAL_LIMIT,
+            with_payload=True,
+            with_vectors=False,
+        )
+        hits = res.points
+    else:
+        hits = client.search(
+            collection_name=COLLECTION,
+            query_vector=qvec,
+            limit=RETRIEVAL_LIMIT
+        )
+
+    print(f"[*] retrieved {len(hits)} hits in {time.time() - t1:.2f}s")
+    return hits
+
+
+def query(question: str, mode: str = "normal"):
+    hits = retrieve_hits(question)
+
+    context = "\n\n".join(
+        f"Title: {h.payload.get('title','')}\n"
+        f"Source: {h.payload.get('url','')}\n"
+        f"Topic: {h.payload.get('topic','')}\n"
+        f"Text: {h.payload.get('chunk','')[:MAX_CONTEXT_CHARS_PER_HIT]}"
+        for h in hits[:RETRIEVAL_LIMIT]
+    )
+
+    system, user = build_prompt(question, context, mode)
+
+    print("[*] sending context to Ollama...")
+    t2 = time.time()
+
+    resp = ollama.chat(
+        model=CHAT_MODEL,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+    )
+
+    print(f"[*] Ollama response in {time.time() - t2:.2f}s")
+
+    print("\n===== ANSWER =====\n")
+    print(resp["message"]["content"])
+
+    print("\n===== SOURCES =====\n")
+    for h in hits:
+        print("-", h.payload.get("url"))
+
+
+def menu():
+    print("""
+CTRLALT INTEL MENU
+
+1. Iran / Israel / US situation
+2. Strait of Hormuz reopening
+3. NATO vs Russia war risk
+4. Nuclear escalation risk
+5. UK boots on ground in Iran
+6. Custom question
+""")
+
+    choice = input("Select: ").strip()
+
+    if choice == "1":
+        query("Make a decisive assessment of the current US, Iran, Israel and UK MOD situation.", "brief")
+    elif choice == "2":
+        query("Will the Strait of Hormuz reopen under current conflict conditions? What would it take?", "verdict")
+    elif choice == "3":
+        query("What is the likelihood of war with Russia based on current NATO, UK, EU and US activity? Rate 1 to 5.", "risk")
+    elif choice == "4":
+        query("What is the likelihood of nuclear escalation in the current Russia, Iran, NATO and Middle East environment? Rate 1 to 5.", "risk")
+    elif choice == "5":
+        query("Should the UK deploy ground forces into Iran under current conditions?", "verdict")
+    elif choice == "6":
+        q = input("Question: ")
+        mode = input("Mode normal/risk/verdict/brief: ").strip() or "normal"
+        query(q, mode)
+    else:
+        print("[!] invalid choice")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="RAG defence intel assistant")
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("seed", help="Write default working sources")
+    sub.add_parser("list", help="List current source URLs")
+    sub.add_parser("ingest", help="Ingest all saved URLs")
+    sub.add_parser("menu", help="Open intel menu")
+
+    add_cmd = sub.add_parser("add", help="Add one source URL")
+    add_cmd.add_argument("url")
+
+    ask_cmd = sub.add_parser("ask", help="Ask a question")
+    ask_cmd.add_argument("question")
+    ask_cmd.add_argument("--mode", choices=["normal", "risk", "verdict", "brief"], default="normal")
+
+    args = parser.parse_args()
+
+    if args.cmd == "seed":
+        seed_sources()
+    elif args.cmd == "add":
+        add_source(args.url)
+    elif args.cmd == "list":
+        list_sources()
+    elif args.cmd == "ingest":
+        ingest_sources(load_sources())
+    elif args.cmd == "ask":
+        query(args.question, args.mode)
+    elif args.cmd == "menu":
+        menu()
+
+
+if __name__ == "__main__":
+    main()
