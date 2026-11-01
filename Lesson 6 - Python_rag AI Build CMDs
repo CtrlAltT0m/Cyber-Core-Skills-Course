@@ -1,0 +1,209 @@
+==========================================================================
+  LESSON 6 - AIR-GAPPED AI FOR EVERYONE
+  Build your own private AI that runs on a laptop with no internet
+  BSides Bournemouth 2026
+==========================================================================
+
+  This lesson builds a local AI assistant using Ollama and one Python
+  script (rag_local_reduced.py). The script downloads information about
+  UK university computing, cyber security and IT courses, then the AI
+  answers questions from that data - with sources - fully offline.
+
+  HOW IT WORKS
+
+      Build online  -->  Cut the network  -->  Ask questions offline
+
+
+--------------------------------------------------------------------------
+  SPECS USED
+--------------------------------------------------------------------------
+
+                  CLOUD (build)            LOCAL VM (demo)
+  OS              Ubuntu 24.04             Ubuntu 24.04 Desktop
+  CPU             2 vCPU                   4 vCPU
+  RAM             2 GB (+8 GB swap)        8 GB
+  Data            590 pages (full)         8 pages (reduced)
+  Internet        Yes                      No - air-gapped
+
+  Models:  gemma3:4b (chat)  |  gemma3:1b (light chat)  |  embeddinggemma (search)
+  No GPU needed - everything runs on the CPU.
+
+
+--------------------------------------------------------------------------
+  STEP 1 - UPDATE THE SYSTEM
+--------------------------------------------------------------------------
+
+    sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
+
+  Note: Always patch first.
+
+
+--------------------------------------------------------------------------
+  STEP 2 - CHOOSE YOUR MODEL
+--------------------------------------------------------------------------
+
+    https://huggingface.co
+    https://ollama.com/library
+
+  Note: 1B-4B models run well on a laptop. 7B+ needs more memory.
+        Check the training cutoff - it knows nothing after that date.
+        Check the licence.
+        Uncensored versions exist - safety guardrails removed.
+
+
+--------------------------------------------------------------------------
+  STEP 3 - INSTALL OLLAMA
+--------------------------------------------------------------------------
+
+    curl -fsSL https://ollama.com/install.sh | sh
+    ollama --version
+    systemctl status ollama --no-pager
+
+  Note: Ollama is the engine that runs the AI. Should say active (running).
+
+
+--------------------------------------------------------------------------
+  STEP 4 - SECURITY CHECK
+--------------------------------------------------------------------------
+
+    ss -ltnp | grep 11434
+
+  Note: Must show 127.0.0.1:11434 - localhost only, not the network.
+
+
+--------------------------------------------------------------------------
+  STEP 5 - ADD SWAP (low-memory machines only, around 2 GB RAM)
+--------------------------------------------------------------------------
+
+    sudo fallocate -l 8G /swapfile && sudo chmod 600 /swapfile
+    sudo mkswap /swapfile && sudo swapon /swapfile
+    echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+
+--------------------------------------------------------------------------
+  STEP 6 - DOWNLOAD THE MODELS
+--------------------------------------------------------------------------
+
+    ollama pull gemma3:4b
+    ollama pull embeddinggemma
+    ollama list
+
+  Note: gemma3:4b writes the answers (~3 GB).
+        embeddinggemma finds the right data (~600 MB).
+        The ID in "ollama list" is the model's fingerprint.
+
+
+--------------------------------------------------------------------------
+  STEP 7 - TRY THE MODEL WITHOUT RAG
+--------------------------------------------------------------------------
+
+    ollama run gemma3:4b "What is the best UK university for Computer Science?"
+
+  Note: Answers from memory only. No sources. Can be out of date.
+
+
+--------------------------------------------------------------------------
+  STEP 8 - SET UP PYTHON
+--------------------------------------------------------------------------
+
+    sudo apt install -y python3.12-venv python3-pip
+    python3 -m venv ~/llm-rag/venv
+    source ~/llm-rag/venv/bin/activate
+    pip install requests beautifulsoup4 lxml ollama qdrant-client pypdf
+
+  Note: Only needed once.
+        After a reboot, run the "source" line again.
+
+
+--------------------------------------------------------------------------
+  STEP 9 - BUILD THE RAG (online)
+--------------------------------------------------------------------------
+
+    python3 rag_local_reduced.py sources
+    python3 -u rag_local_reduced.py build
+
+  Note: The only step that uses the internet.
+        Downloads 8 pages and indexes them - takes a few minutes.
+        Respects each site's robots.txt.
+
+
+--------------------------------------------------------------------------
+  STEP 10 - AIR-GAP IT
+--------------------------------------------------------------------------
+
+    VMware:  VM > Settings > Network Adapter > untick "Connected"
+
+    ip route
+    ping -c 2 8.8.8.8
+
+  Note: ip route is empty and ping fails = no way out.
+
+
+--------------------------------------------------------------------------
+  STEP 11 - ASK QUESTIONS (offline)
+--------------------------------------------------------------------------
+
+  With your data (RAG):
+
+    python3 rag_local_reduced.py ask "What is the best UK university for Computer Science?"
+
+  Without your data (bare model), to compare:
+
+    python3 rag_local_reduced.py ask "What is the best UK university for Computer Science?" --no-rag
+
+  Keep asking, one question after another:
+
+    python3 rag_local_reduced.py chat
+
+  Note: The first answer takes a while to start while the model loads.
+
+
+--------------------------------------------------------------------------
+  STEP 12 - WEB INTERFACE
+--------------------------------------------------------------------------
+
+    python3 rag_local_reduced.py serve
+
+    Open Firefox:  http://127.0.0.1:8080
+
+  Note: Tick / untick "Use my data (RAG)" to compare answers.
+        Use the model dropdown to switch models.
+        Ctrl+C in the terminal to stop.
+
+
+--------------------------------------------------------------------------
+  USEFUL COMMANDS
+--------------------------------------------------------------------------
+
+    python3 rag_local_reduced.py info       Show models and how much data is loaded
+    python3 rag_local_reduced.py reset      Delete the search database (downloads kept)
+
+    CHAT_MODEL=gemma3:1b python3 rag_local_reduced.py chat      Use a different model
+
+
+--------------------------------------------------------------------------
+  SECURITY NOTES
+--------------------------------------------------------------------------
+
+  - Every downloaded page is saved with its source URL and a SHA-256 fingerprint.
+  - Ollama and the web page listen on localhost only.
+  - Encrypt the disk - the search database is a copy of your data.
+  - An air gap stops data leaving, but not bad data going in.
+    Review what you feed it (prompt injection).
+
+
+--------------------------------------------------------------------------
+  ISO/IEC 42001 - AI MANAGEMENT SYSTEM
+--------------------------------------------------------------------------
+
+  Choosing a model        A.10.3 Suppliers, A.4.4 Tooling resources
+  Installing Ollama       A.4.4 Tooling resources, A.6.2.7 Technical documentation
+  Security check          A.6.2.5 Deployment, A.6.2.6 Operation and monitoring
+  Building the RAG        A.7.3 Acquisition of data, A.7.5 Data provenance
+  Air-gap proof           A.6.2.4 Verification and validation
+  Answers with sources    A.8.2 Information for users
+
+
+==========================================================================
+  Built by Tom Coogans  -  github.com/CtrlAltT0m
+==========================================================================
